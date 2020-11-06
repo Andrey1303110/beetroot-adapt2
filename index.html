@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="main_body">
+
+        <section id="home" name="home">
+
+            <div class="navigation">
+                <img src="./img/logo.png" alt="logo">
+                <p><a href="#home">home</a></p>
+                <p><a href="#about_us">about</a></p>
+                <p><a href="#services">services</a></p>
+                <p><a href="#gallery">gallery</a></p>
+                <p><a href="#blog">blog</a></p>
+                <p><a href="#contacts">contacts</a></p>
+            </div>
+
+            <div class="text_block">
+                <p>Fresh Life</p>
+                <p>Sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco.</p>
+                <form action="/www.google.com/" target="_blank">
+                    <button type="submit">GET FREE NOW</button>
+                </form>
+            </div>
+
+        </section>
+
+        <section id="about_us" name="about_us">
+            <p>About Us</p>
+            <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+            </p>
+            <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        </section>
+
+        <section id="services" name="services">
+            <p>Our Services</p>
+            <div>Online Shopping <img src="./img/icon1.png" alt="cart"></div>
+            <div>Quality Product <img src="./img/icon2.png" alt="beetroot"></div>
+            <div>Domestic & International Delivery <img src="./img/icon3.png" alt="planet"></div>
+            <div>Well Orgarized <img src="./img/icon4.png" alt="carrot"></div>
+        </section>
+
+        <section id="gallery" name="gallery">
+            <p>Gallery</p>
+            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="grid_container">
+                <div id="container1"></div>
+                <div id="container2"></div>
+                <div id="container3"></div>
+                <div id="container4"></div>
+                <div id="container5"></div>
+            </div>
+            <form action="/www.google.com/" target="_blank">
+                <button type="submit">VIEW MORE</button>
+            </form>
+
+        </section>
+
+        <section id="subscribe" name="subscribe">
+            <p>Subscribe To Us</p>
+            <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.</p>
+            <form>
+                <input type="email" placeholder="Your e-mail adress" autocomplete="email" minlength="6" required>
+                <input type="submit" value="SUBCRIBE">
+            </form>
+        </section>
+
+        <section id="blog" name="blog">
+            <p class="sect_name">Blog</p>
+            <p class="sect_text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <div class="images">
+                <div class="image">
+                    <p class="date">20 NOV</p>
+                    <p class="mid_text">Green Smoothies: Too Much of a Good Thing?</p>
+                    <p class="dw_text">By Auskteez - 2 hours ago</p>
+                </div>
+                <div class="image">
+                    <p class="date">14 NOV</p>
+                    <p class="mid_text">Growing Food and a “Thirst” for Innovation</p>
+                    <p class="dw_text">By Auskteez - 3 hours ago</p>
+                </div>
+                <div class="image">
+                    <p class="date">10 NOV</p>
+                    <p class="mid_text">Pesticides & Food: What You Need to Know</p>
+                    <p class="dw_text">By Auskteez - 6 hours ago</p>
+                </div>
+            </div>
+            <form action="/www.google.com/" target="_blank">
+                <button type="submit">VIEW MORE</button>
+            </form>
+        </section>
+
+        <section id="contact" name="contact">
+            <script src="./script/script.js">
+            </script>
+
+            <div class="main_block">
+                <div>
+                    <p class="upper_text main">Contact</p>
+                    <p class="upper_text description">For new projects, ideas, business or anything<br />you'd like to
+                        discuss,
+                        contact with me!</p>
+                </div>
+
+                <div class="panels">
+                    <form action="./otpravka.php" method="POST" class="left_panel">
+                        <input type="text" minlength="3" class="input_left" placeholder="Your name" autocomplete="name"
+                            required>
+                        <input type="email" minlength="6" class="input_left" placeholder="Your e-mail"
+                            autocomplete="email" required>
+                        <input type="tel" minlength="10" class="input_left" placeholder="Your phone number"
+                            autocomplete="tel" required pattern="[0-9]">
+                        <textarea class="text_input_left" placeholder="Your message"></textarea>
+                        <button class="mail-btn" name="otpravka" type="submit">send</button>
+                    </form>
+
+                    <div class="right_panel">
+                        <p class="right_up_text">ADDRESS</p>
+                        <p class="right_dw_text">123 City name, Street, City, Country</p>
+                        <p class="right_up_text">EMAIL</p>
+                        <p class="right_dw_text">cahee@domain</p>
+                        <p class="right_up_text">PHONE</p>
+                        <p class="right_dw_text">97584595</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>© 2015 Company. All right reserved.</p>
+                <p><img svg src="./img/logo-small.png"></p>
+                <p>Made with <a>love</a> by Auskteez</p>
+            </footer>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
