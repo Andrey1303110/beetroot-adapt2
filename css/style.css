@@ -3,13 +3,10 @@
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
   body {
     margin: 0 auto;
+    position: relative;
   }
-  #home {
-    background-image: url(../img/bgimg1.png);
-    background-repeat: round;
-    height: 990px;
-  }
-  #home .navigation {
+  body .navigation {
+    position: fixed;
     height: 140px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23,13 +20,17 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.38);
+    margin-top: -10px;
   }
-  #home .navigation img {
+  body .navigation img {
     height: 52px;
     position: relative;
     left: 165px;
   }
-  #home .navigation p {
+  body .navigation p {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16pt;
@@ -40,32 +41,39 @@
     left: 450px;
     cursor: pointer;
   }
-  #home .navigation p a {
+  body .navigation p a {
     text-decoration: none;
     color: black;
   }
-  #home .navigation p:hover {
+  body .navigation p:hover {
     border-top: 5px solid orangered;
   }
-  #home .text_block {
+  body #home {
+    background-image: url(../img/bgimg1.png);
+    background-repeat: round;
+    height: 990px;
+    position: relative;
+    margin-top: -10px;
+  }
+  body .text_block {
     display: block;
     position: relative;
     left: 165px;
     top: 200px;
     width: 450px;
   }
-  #home .text_block p:nth-child(1) {
+  body .text_block p:nth-child(1) {
     font-size: 60pt;
     -webkit-margin-before: 10px;
             margin-block-start: 10px;
     -webkit-margin-after: 30px;
             margin-block-end: 30px;
   }
-  #home .text_block p:nth-child(2) {
+  body .text_block p:nth-child(2) {
     font-size: 17pt;
     padding-bottom: 40px;
   }
-  #home .text_block button {
+  body .text_block button {
     display: block;
     width: 280px;
     height: 50px;
@@ -382,6 +390,18 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  #blog .images div:nth-child(1) {
+    -webkit-box-shadow: -17px 17px 7px rgba(0, 0, 0, 0.6);
+            box-shadow: -17px 17px 7px rgba(0, 0, 0, 0.6);
+  }
+  #blog .images div:nth-child(2) {
+    -webkit-box-shadow: 0px 17px 7px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 17px 7px rgba(0, 0, 0, 0.6);
+  }
+  #blog .images div:nth-child(3) {
+    -webkit-box-shadow: 17px 17px 7px rgba(0, 0, 0, 0.6);
+            box-shadow: 17px 17px 7px rgba(0, 0, 0, 0.6);
+  }
   #blog .images div {
     background-repeat: round;
     width: 280px;
@@ -654,10 +674,54 @@
   body {
     margin: 0 auto;
   }
+  body .navigation {
+    position: fixed;
+    height: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.38);
+    margin-top: -10px;
+  }
+  body .navigation img {
+    height: 52px;
+    position: relative;
+    left: 165px;
+  }
+  body .navigation p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16pt;
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    left: 450px;
+    cursor: pointer;
+  }
+  body .navigation p a {
+    text-decoration: none;
+    color: black;
+  }
+  body .navigation p:hover {
+    border-top: 5px solid orangered;
+  }
   #home {
     background-image: url(../img/bgimg1.png);
     background-repeat: round;
     height: 1350px;
+    margin-top: -10px;
   }
   #home .navigation {
     height: 140px;
@@ -844,8 +908,8 @@
     display: grid;
     -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
-    -ms-grid-rows: (1fr)[11];
-        grid-template-rows: repeat(11, 1fr);
+    -ms-grid-rows: (1fr)[10];
+        grid-template-rows: repeat(10, 1fr);
     gap: 15px 15px;
     margin: 10px auto 20px auto;
   }
