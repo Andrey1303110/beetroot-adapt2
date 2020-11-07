@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+  
   body {
     margin: 0 auto;
     position: relative;
@@ -671,6 +677,12 @@
 }
 
 @media screen and (min-width: 1440px) and (max-width: 1920px) {
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+  
   body {
     margin: 0 auto;
   }
