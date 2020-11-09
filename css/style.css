@@ -26,7 +26,7 @@ body .navigation {
           align-items: center;
   z-index: 100;
   width: 100%;
-  background-color: rgba(192, 192, 192, 0.38);
+  background-color: rgba(226, 226, 226, 0.6);
   margin-top: -10px;
 }
 
@@ -70,8 +70,12 @@ body .text_block {
   display: block;
   position: relative;
   left: 13%;
-  top: 30%;
+  top: 35%;
   width: 30%;
+}
+
+body .text_block form {
+  height: 10%;
 }
 
 body .text_block p:nth-child(1) {
@@ -97,8 +101,8 @@ body .text_block button {
   line-height: 0;
   border: none;
   font-weight: lighter;
-  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.22);
-          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 18px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 18px 15px rgba(0, 0, 0, 0.15);
 }
 
 #about_us {
@@ -152,7 +156,7 @@ body .text_block button {
   position: sticky;
   left: 60%;
   top: 42%;
-  width: 30%;
+  width: 35%;
 }
 
 #services div {
@@ -205,6 +209,7 @@ body .text_block button {
   background-color: #ffe92f;
   background-repeat: round;
   height: 1100px;
+  min-height: 900px;
   margin-top: -20px;
   padding-top: 50px;
 }
@@ -231,14 +236,14 @@ body .text_block button {
 }
 
 #gallery .grid_container {
-  width: 1000px;
-  height: 660px;
+  width: 65%;
+  height: 60%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: (55px)[10];
-      grid-template-rows: repeat(10, 55px);
+  -ms-grid-rows: (1fr)[10];
+      grid-template-rows: repeat(10, 1fr);
   gap: 15px 15px;
   margin: 10px auto 20px auto;
   padding-bottom: 70px;
@@ -310,14 +315,15 @@ body .text_block button {
 
 #gallery form {
   margin: 0 auto;
-  width: 250px;
+  width: 20%;
+  height: 6%;
 }
 
 #gallery form button {
   background-color: #5585a2;
   color: white;
-  width: 250px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
   font-size: 27pt;
   border: none;
   cursor: pointer;
@@ -334,7 +340,8 @@ body .text_block button {
   background-image: url(../img/bgimg5.png);
   background-repeat: round;
   height: 480px;
-  padding-left: 165px;
+  min-height: 350px;
+  padding-left: 13%;
 }
 
 #subscribe p {
@@ -352,12 +359,12 @@ body .text_block button {
 #subscribe p:nth-child(2) {
   font-size: 25pt;
   padding: 30px 0px;
-  width: 700px;
+  width: 56%;
 }
 
 #subscribe input:nth-child(1) {
   height: 50px;
-  width: 400px;
+  width: 33%;
   font-size: 17pt;
   margin-right: 30px;
 }
@@ -368,13 +375,13 @@ body .text_block button {
 
 #subscribe input:nth-child(2) {
   height: 56px;
-  width: 200px;
+  width: 18%;
   font-size: 20pt;
   background-color: rgba(0, 215, 0, 0.5);
   border: none;
   color: whitesmoke;
-  -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.6);
-          box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
   -webkit-transition: .12s ease-in-out;
   transition: .12s ease-in-out;
 }
@@ -383,14 +390,16 @@ body .text_block button {
   background-color: rgba(0, 225, 0, 0.7);
   -webkit-transform: translateX(8px);
           transform: translateX(8px);
-  -webkit-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
-          box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
 }
 
 #blog {
   background-image: url(../img/bgimg6.png);
   background-repeat: round;
+  background-size: 100%;
   height: 700px;
+  min-height: 550px;
   color: #f7f7f7;
 }
 
@@ -411,7 +420,7 @@ body .text_block button {
 #blog .sect_text {
   font-size: 17pt;
   text-align: center;
-  width: 650px;
+  width: 45%;
   margin: 0 auto;
   padding-bottom: 20px;
 }
@@ -419,14 +428,15 @@ body .text_block button {
 #blog form {
   margin: 0 auto;
   padding-top: 50px;
-  width: 250px;
+  width: 20%;
+  height: 7%;
 }
 
 #blog form button {
   background-color: #5585a2;
   color: white;
-  width: 250px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
   font-size: 27pt;
   border: none;
   cursor: pointer;
@@ -441,7 +451,7 @@ body .text_block button {
 
 #blog .images {
   width: auto;
-  margin: 0px 160px;
+  margin: 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,9 +459,9 @@ body .text_block button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #blog .images div:nth-child(1) {
@@ -470,28 +480,26 @@ body .text_block button {
 }
 
 #blog .images div {
-  background-repeat: round;
-  width: 280px;
-  height: 230px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 22%;
   padding: 20px;
-  -webkit-box-shadow: 17px 17px 7px rgba(0, 0, 0, 0.6);
-          box-shadow: 17px 17px 7px rgba(0, 0, 0, 0.6);
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 #blog .images div:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .25s;
+  transition: .25s;
 }
 
 #blog .images div:active {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  -webkit-transition: .15s;
-  transition: .15s;
+  -webkit-transition: .13s;
+  transition: .13s;
   -webkit-box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
           box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
 }
@@ -541,7 +549,7 @@ body .text_block button {
 }
 
 #contacts .main_block {
-  padding: 45px 180px;
+  padding: 60px 180px;
 }
 
 #contacts .main_block .main {
@@ -561,6 +569,8 @@ body .text_block button {
 }
 
 #contacts .main_block .panels {
+  margin-top: 35px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,35 +583,35 @@ body .text_block button {
           justify-content: space-evenly;
 }
 
-#contacts .main_block .panels {
-  margin-top: 25px;
+#contacts .main_block .panels form {
+  width: 40%;
 }
 
-#contacts .main_block .panels .input_left:valid {
+#contacts .main_block .panels form .input_left:valid {
   border: 2px rgba(0, 192, 0, 0.397);
   border-style: outset;
 }
 
-#contacts .main_block .panels .input_left:invalid {
+#contacts .main_block .panels form .input_left:invalid {
   border: 2px rgba(236, 0, 0, 0.397);
   border-style: inset;
 }
 
-#contacts .main_block .panels .input_left:focus {
+#contacts .main_block .panels form .input_left:focus {
   background-color: #00b9b9be;
   border-left: 3px solid blue;
-  width: 350px;
+  width: 85%;
 }
 
-#contacts .main_block .panels .text_input_left:focus {
+#contacts .main_block .panels form .text_input_left:focus {
   background-color: #00b9b9be;
   border-left: 3px solid blue;
-  width: 350px;
+  width: 85%;
 }
 
-#contacts .main_block .panels .text_input_left {
+#contacts .main_block .panels form .text_input_left {
   background-color: #00d3d33d;
-  width: 400px;
+  width: 100%;
   padding-left: 8px;
   -webkit-transition: all .35s;
   transition: all .35s;
@@ -615,30 +625,30 @@ body .text_block button {
   transition: all .4s ease-in-out;
 }
 
-#contacts .main_block .panels ::-webkit-input-placeholder {
+#contacts .main_block .panels form ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
 }
 
-#contacts .main_block .panels :-ms-input-placeholder {
+#contacts .main_block .panels form :-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
 }
 
-#contacts .main_block .panels ::-ms-input-placeholder {
+#contacts .main_block .panels form ::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
 }
 
-#contacts .main_block .panels ::placeholder {
+#contacts .main_block .panels form ::placeholder {
   color: rgba(255, 255, 255, 0.9);
   font-size: 14px;
 }
 
-#contacts .main_block .panels .input_left {
+#contacts .main_block .panels form .input_left {
   background-color: #00d3d33d;
-  height: 30px;
-  width: 400px;
+  height: 15%;
+  width: 100%;
   padding-left: 8px;
   -webkit-transition: all .35s;
   transition: all .35s;
@@ -650,7 +660,7 @@ body .text_block button {
   transition: all .4s ease-in-out;
 }
 
-#contacts .main_block .panels .left_panel {
+#contacts .main_block .panels form .left_panel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -661,7 +671,9 @@ body .text_block button {
 }
 
 #contacts .main_block .panels button {
-  width: 300px;
+  width: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
   margin-top: 30px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -692,6 +704,10 @@ body .text_block button {
 
 #contacts .main_block .panels .right_dw_text {
   font-size: 15px;
+}
+
+#contacts .main_block .panels p:nth-child(even) {
+  padding-bottom: 7px;
 }
 
 #contacts footer {
