@@ -788,6 +788,7 @@ body .text_block button {
           transform: scale(0.8);
   -webkit-transition: all 0.2s cubic-bezier(0.3, 5, 0.5, 1);
   transition: all 0.2s cubic-bezier(0.3, 5, 0.5, 1);
+  background-color: #00d3d35b;
 }
 
 /*@media screen and (min-width: 1440px) and (max-width: 1920px) {

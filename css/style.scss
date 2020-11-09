@@ -573,6 +573,7 @@ body {
             &:active {
                 transform: scale(.8);
                 transition: all .2s cubic-bezier(0.3, 5, 0.5, 1);
+                background-color: #00d3d35b;
             }
         }
     }
