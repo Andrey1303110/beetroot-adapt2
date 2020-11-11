@@ -1893,6 +1893,7 @@
   #blog .images div {
     background-repeat: round;
     width: 26%;
+    height: 100%;
     padding: 20px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
