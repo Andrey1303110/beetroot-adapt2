@@ -1894,7 +1894,7 @@
     background-repeat: round;
     width: 26%;
     height: 100%;
-    padding: 20px;
+    padding: 26px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     cursor: pointer;
@@ -1929,7 +1929,7 @@
   }
   #blog .images div .mid_text {
     font-size: 20pt;
-    padding-top: 95px;
+    padding-top: 37%;
   }
   #blog .images div .dw_text {
     font-size: 15pt;
