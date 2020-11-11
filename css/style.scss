@@ -16,18 +16,11 @@
                 display: flex;
                 flex-direction: row;
                 align-content: space-between;
+                justify-content: space-evenly;
                 align-items: center;
                 z-index: 100;
                 width: 100%;
                 background-color: rgba(226, 226, 226, 0.6);
-                a {
-                    img {
-                        height: 45px;
-                        cursor: pointer;
-                        padding-left: 40px;
-                        position: relative;
-                    }
-                }
                 p {
                     display: block;
                     text-transform: uppercase;
@@ -38,8 +31,21 @@
                     margin-left: 8px;
                     margin-right: 8px;
                     position: relative;
-                    left: 20%;
                     cursor: pointer;
+                    &:nth-child(1) {
+                        padding: 0px 10px;
+                        margin-top: -20px;
+                    }
+                    &:nth-child(2) {
+                        padding-left: 150px;
+                    }
+                    .logo {
+                        img {
+                            height: 45px;
+                            cursor: pointer;
+                            position: relative;
+                        }
+                    }
                     a {
                         text-decoration: none;
                         color: black;
@@ -68,7 +74,7 @@
                 position: relative;
                 left: 13%;
                 top: 30%;
-                width: 35%;
+                width: 40%;
                 form {
                     height: 10%;
                 }
@@ -373,11 +379,11 @@
                     }
                 }
             .images {
-                width: auto;
+                width: 850px;
                 margin: 0px auto;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 div:nth-child(1) {
                     box-shadow: -17px 17px 7px rgba(0,0,0,0.6);
                 }
@@ -389,8 +395,7 @@
                 }
                 div {
                     background-repeat: round;
-                    width: 25%;
-                    height: 25%;
+                    width: 26%;
                     padding: 7px;
                     transition: all .4s ease-in-out;
                     cursor: pointer;
@@ -619,35 +624,39 @@ body {
         .nav {
             position: fixed;
             top: 0;
-            height: 100px;
+            height: 70px;
             display: flex;
             flex-direction: row;
             align-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
             z-index: 100;
             width: 100%;
             background-color: rgba(226, 226, 226, 0.6);
-            a {
-                img {
-                    height: 50px;
-                    cursor: pointer;
-                    padding-left: 40px;
-                    position: relative;
-                }
-            }
             p {
                 display: block;
                 text-transform: uppercase;
                 font-weight: 600;
                 text-align: center;
-                height: 30%;
+                height: 40%;
                 font-size: 14pt;
-                padding: 100px 0px;
-                margin-left: 15px;
-                margin-right: 15px;
+                margin-left: 8px;
+                margin-right: 8px;
                 position: relative;
-                left: 32%;
                 cursor: pointer;
+                &:nth-child(1) {
+                    padding: 0px 40px;
+                }
+                &:nth-child(2) {
+                    padding-left: 420px;
+                }
+                .logo {
+                    img {
+                        height: 45px;
+                        cursor: pointer;
+                        position: relative;
+                    }
+                }
                 a {
                     text-decoration: none;
                     color: black;
@@ -977,7 +986,7 @@ body {
                 }
             }
         .images {
-            width: auto;
+            width: 1150px;
             margin: 0px auto;
             display: flex;
             flex-direction: row;
@@ -993,8 +1002,7 @@ body {
             }
             div {
                 background-repeat: round;
-                width: 22%;
-                height: 22%;
+                width: 20%;
                 padding: 20px;
                 transition: all .4s ease-in-out;
                 cursor: pointer;
@@ -1222,35 +1230,39 @@ body {
         .nav {
             position: fixed;
             top: 0;
-            height: 100px;
+            height: 70px;
             display: flex;
             flex-direction: row;
             align-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
             z-index: 100;
             width: 100%;
             background-color: rgba(226, 226, 226, 0.6);
-            a {
-                img {
-                    height: 50px;
-                    cursor: pointer;
-                    padding-left: 40px;
-                    position: relative;
-                }
-            }
             p {
                 display: block;
                 text-transform: uppercase;
                 font-weight: 600;
                 text-align: center;
-                height: 30%;
-                font-size: 18pt;
-                padding: 100px 0px;
-                margin-left: 15px;
-                margin-right: 15px;
+                height: 40%;
+                font-size: 14pt;
+                margin-left: 8px;
+                margin-right: 8px;
                 position: relative;
-                left: 38%;
                 cursor: pointer;
+                &:nth-child(1) {
+                    padding: 0px 50px;
+                }
+                &:nth-child(2) {
+                    padding-left: 500px;
+                }
+                .logo {
+                    img {
+                        height: 45px;
+                        cursor: pointer;
+                        position: relative;
+                    }
+                }
                 a {
                     text-decoration: none;
                     color: black;
@@ -1541,7 +1553,7 @@ body {
         background-repeat: round;
         background-position: center;
         background-size: 100%;
-        height: 800px;
+        height: 870px;
         min-height: 550px;
         color: rgb(247, 247, 247);
         p {
@@ -1557,7 +1569,7 @@ body {
         .sect_text {
             font-size: 17pt;
             text-align: center;
-            width: 45%;
+            width: 50%;
             margin: 0 auto;
             padding-bottom: 20px;
         }
@@ -1581,8 +1593,8 @@ body {
                 }
             }
         .images {
-            width: auto;
-            height: 42%;
+            width: 1441px;
+            height: 45%;
             margin: 0px auto;
             display: flex;
             flex-direction: row;
@@ -1598,8 +1610,8 @@ body {
             }
             div {
                 background-repeat: round;
-                width: 26%;
-                height: 100%;
+                width: 23%;
+                height: 80%;
                 padding: 26px;
                 transition: all .4s ease-in-out;
                 cursor: pointer;
