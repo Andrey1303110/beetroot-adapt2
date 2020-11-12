@@ -399,7 +399,7 @@
                 }
                 div {
                     background-repeat: round;
-                    width: 26%;
+                    width: 27%;
                     padding: 7px;
                     transition: all .4s ease-in-out;
                     cursor: pointer;
@@ -567,12 +567,10 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                padding: 0px 50px;
+                padding: 0px 20px;
                 vertical-align: middle;
                 height: 70px;
                 position: relative;
-                bottom: -70px;
-                margin-top: 50px;
             }
             
             footer p {
@@ -584,7 +582,7 @@
             
             footer img {
                 height: 45px;
-                margin: 10px;
+                margin: -15px;
             }
             a {
                 color: rgb(255, 67, 67);

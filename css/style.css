@@ -465,7 +465,7 @@
   }
   #blog .images div {
     background-repeat: round;
-    width: 26%;
+    width: 27%;
     padding: 7px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -682,12 +682,10 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0px 50px;
+    padding: 0px 20px;
     vertical-align: middle;
     height: 70px;
     position: relative;
-    bottom: -70px;
-    margin-top: 50px;
   }
   #contacts footer p {
     font-size: 14pt;
@@ -699,7 +697,7 @@
   }
   #contacts footer img {
     height: 45px;
-    margin: 10px;
+    margin: -15px;
   }
   #contacts a {
     color: #ff4343;
