@@ -116,7 +116,7 @@
             background-position: center;
             height: 700px;
             min-height: 500px;
-            margin-top: -18px;
+            margin-top: -25px;
             p {
                 color: white;
                 position: relative;
@@ -344,7 +344,6 @@
     
         #blog {
             background-image: url(../img/bgimg6.png);
-            background-repeat: round;
             background-position: center;
             background-size: 100%;
             height: 650px;
@@ -401,9 +400,10 @@
                     box-shadow: 17px 17px 7px rgba(0,0,0,0.6);
                 }
                 div {
-                    background-repeat: round;
-                    width: 27%;
-                    padding: 7px;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 25%;
+                    padding: 15px;
                     transition: all .4s ease-in-out;
                     cursor: pointer;
                     &:hover {
@@ -428,7 +428,7 @@
                     }
                     .mid_text {
                         font-size: 12pt;
-                        padding-top: 95px;
+                        padding-top: 45px;
                     }
                     .dw_text {
                         font-size: 9pt;
@@ -1018,9 +1018,10 @@
                     box-shadow: 17px 17px 7px rgba(0,0,0,0.6);
                 }
                 div {
-                    background-repeat: round;
-                    width: 26%;
-                    padding: 7px;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 25%;
+                    padding: 15px;
                     transition: all .4s ease-in-out;
                     cursor: pointer;
                     &:hover {
@@ -1045,7 +1046,7 @@
                     }
                     .mid_text {
                         font-size: 12pt;
-                        padding-top: 95px;
+                        padding-top: 45px;
                     }
                     .dw_text {
                         font-size: 9pt;
@@ -1629,8 +1630,9 @@ body {
                 box-shadow: 17px 17px 7px rgba(0,0,0,0.6);
             }
             div {
-                background-repeat: round;
-                width: 23%;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 25%;
                 padding: 20px;
                 transition: all .4s ease-in-out;
                 cursor: pointer;
@@ -1656,7 +1658,7 @@ body {
                 }
                 .mid_text {
                     font-size: 14pt;
-                    padding-top: 95px;
+                    padding-top: 90px;
                 }
                 .dw_text {
                     font-size: 10pt;
@@ -2206,7 +2208,7 @@ body {
             text-align: center;
             width: 50%;
             margin: 0 auto;
-            padding-bottom: 20px;
+            padding-bottom: 55px;
         }
         form {
             margin: 0 auto;
@@ -2229,7 +2231,6 @@ body {
             }
         .images {
             width: 1441px;
-            height: 45%;
             margin: 0px auto;
             display: flex;
             flex-direction: row;
@@ -2244,9 +2245,9 @@ body {
                 box-shadow: 20px 20px 7px rgba(0,0,0,0.6);
             }
             div {
-                background-repeat: round;
-                width: 23%;
-                height: 80%;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 25%;
                 padding: 26px;
                 transition: all .4s ease-in-out;
                 cursor: pointer;
@@ -2272,7 +2273,7 @@ body {
                 }
                 .mid_text {
                     font-size: 20pt;
-                    padding-top: 37%;
+                    padding-top: 103px;
                 }
                 .dw_text {
                     font-size: 15pt;
@@ -2845,7 +2846,6 @@ body {
             }
         .images {
             width: 1441px;
-            height: 45%;
             margin: 0px auto;
             display: flex;
             flex-direction: row;
@@ -2860,9 +2860,9 @@ body {
                 box-shadow: 20px 20px 7px rgba(0,0,0,0.6);
             }
             div {
-                background-repeat: round;
+                background-repeat: no-repeat;
+                background-size: 100%;
                 width: 25%;
-                height: 80%;
                 padding: 26px;
                 transition: all .4s ease-in-out;
                 cursor: pointer;
@@ -2888,7 +2888,7 @@ body {
                 }
                 .mid_text {
                     font-size: 23pt;
-                    padding-top: 32%;
+                    padding-top: 88px;
                 }
                 .dw_text {
                     font-size: 17pt;
