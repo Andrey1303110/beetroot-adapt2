@@ -1896,10 +1896,6 @@ body {
                         transition: .3s all ease-in-out;
                         border: 2px white;
                         padding: 2px;
-                        &:hover {
-                            background-image: url(../img/logo-orange.svg);
-                            background-repeat: round;
-                        }
                     }
                 }
                 .nav-text {
@@ -2516,10 +2512,6 @@ body {
                         transition: .3s all ease-in-out;
                         border: 2px white;
                         padding: 2px;
-                        &:hover {
-                            background-image: url(../img/logo-orange.svg);
-                            background-repeat: round;
-                        }
                     }
                 }
                 .nav-text {
@@ -2538,7 +2530,7 @@ body {
     #home {
         background-image: url(../img/bgimg1.png);
         background-color: #F9F8FB;
-        background-repeat: cover;
+        background-repeat: no-repeat;
         background-position: center;
         height: 950px;
         width: 100%;
@@ -2582,8 +2574,8 @@ body {
     #about_us {
         background-image: url(../img/bgimg2.png);
         background-color: #00B2B2;
-        background-repeat: cover;
-        background-position: center;
+        background-repeat: no-repeat;
+        background-position: 30%;
         height: 700px;
         min-height: 500px;
         margin-top: -18px;
@@ -2593,7 +2585,7 @@ body {
             width: 39%;
             margin-block-start: 15px;
             margin-block-end: 15px;
-            left: 55%;
+            left: 51%;
             top: 22%;
         }
         p:nth-child(1) {
@@ -2610,7 +2602,7 @@ body {
     #services {
         background-image: url(../img/bgimg3.png); 
         background-color: #70BFFF;
-        background-repeat: cover;
+        background-repeat: no-repeat;
         background-position: center;
         height: 650px;
         min-height: 550px;
