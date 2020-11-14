@@ -15,7 +15,7 @@
     width: 853px;
     margin: 0 auto;
   }
-  body .nav {
+  body nav {
     position: fixed;
     top: 0;
     height: 70px;
@@ -38,7 +38,7 @@
     width: 100%;
     background-color: rgba(226, 226, 226, 0.6);
   }
-  body .nav p {
+  body nav p {
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -50,29 +50,29 @@
     position: relative;
     cursor: pointer;
   }
-  body .nav p:nth-child(1) {
+  body nav p:nth-child(1) {
     padding: 0px 10px;
     margin-top: -20px;
   }
-  body .nav p:nth-child(2) {
+  body nav p:nth-child(2) {
     padding-left: 38px;
   }
-  body .nav p .logo img {
+  body nav p .logo img {
     height: 50px;
     cursor: pointer;
     position: relative;
   }
-  body .nav p .logo img:hover {
+  body nav p .logo img:hover {
     fill: orangered;
   }
-  body .nav p .nav-text {
+  body nav p nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body .nav p .nav-text:hover {
+  body nav p nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -749,7 +749,7 @@
   body {
     margin: 0 auto;
   }
-  body .nav {
+  body nav {
     position: fixed;
     top: 0;
     height: 70px;
@@ -772,7 +772,7 @@
     width: 100%;
     background-color: rgba(226, 226, 226, 0.6);
   }
-  body .nav p {
+  body nav p {
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -784,29 +784,29 @@
     position: relative;
     cursor: pointer;
   }
-  body .nav p:nth-child(1) {
+  body nav p:nth-child(1) {
     padding: 0px 10px;
     margin-top: -20px;
   }
-  body .nav p:nth-child(2) {
+  body nav p:nth-child(2) {
     padding-left: 150px;
   }
-  body .nav p .logo img {
+  body nav p .logo img {
     height: 45px;
     cursor: pointer;
     position: relative;
   }
-  body .nav p .logo img:hover {
+  body nav p .logo img:hover {
     fill: orangered;
   }
-  body .nav p .nav-text {
+  body nav p nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body .nav p .nav-text:hover {
+  body nav p nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -1480,7 +1480,7 @@
   body {
     margin: 0 auto;
   }
-  body .nav {
+  body nav {
     position: fixed;
     top: 0;
     height: 70px;
@@ -1503,7 +1503,7 @@
     width: 100%;
     background-color: rgba(226, 226, 226, 0.6);
   }
-  body .nav p {
+  body nav p {
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -1515,29 +1515,29 @@
     position: relative;
     cursor: pointer;
   }
-  body .nav p:nth-child(1) {
+  body nav p:nth-child(1) {
     padding: 0px 40px;
   }
-  body .nav p:nth-child(2) {
+  body nav p:nth-child(2) {
     padding-left: 420px;
   }
-  body .nav p .logo img {
+  body nav p .logo img {
     height: 45px;
     cursor: pointer;
     position: relative;
     bottom: 10px;
   }
-  body .nav p .logo img:hover {
+  body nav p .logo img:hover {
     fill: orangered;
   }
-  body .nav p .nav-text {
+  body nav p nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body .nav p .nav-text:hover {
+  body nav p nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -2208,7 +2208,7 @@
   body {
     margin: 0 auto;
   }
-  body .nav {
+  body nav {
     position: fixed;
     top: 0;
     height: 70px;
@@ -2231,7 +2231,7 @@
     width: 100%;
     background-color: rgba(226, 226, 226, 0.6);
   }
-  body .nav p {
+  body nav p {
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -2243,13 +2243,13 @@
     position: relative;
     cursor: pointer;
   }
-  body .nav p:nth-child(1) {
+  body nav p:nth-child(1) {
     padding: 0px 50px;
   }
-  body .nav p:nth-child(2) {
+  body nav p:nth-child(2) {
     padding-left: 500px;
   }
-  body .nav p .logo img {
+  body nav p .logo img {
     /*background-image: url(../img/logo.svg);
                         background-repeat: round;*/
     height: 50px;
@@ -2262,14 +2262,14 @@
     border: 2px white;
     padding: 2px;
   }
-  body .nav p .nav-text {
+  body nav p nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body .nav p .nav-text:hover {
+  body nav p nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -2941,7 +2941,7 @@
   body {
     margin: 0 auto;
   }
-  body .nav {
+  body nav {
     position: fixed;
     top: 0;
     height: 100px;
@@ -2964,7 +2964,7 @@
     width: 100%;
     background-color: rgba(226, 226, 226, 0.6);
   }
-  body .nav p {
+  body nav p {
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -2976,13 +2976,13 @@
     position: relative;
     cursor: pointer;
   }
-  body .nav p:nth-child(1) {
+  body nav p:nth-child(1) {
     padding: 0px 50px;
   }
-  body .nav p:nth-child(2) {
+  body nav p:nth-child(2) {
     padding-left: 500px;
   }
-  body .nav p .logo img {
+  body nav p .logo img {
     /*background-image: url(../img/logo.svg);
                         background-repeat: round;*/
     height: 60px;
@@ -2995,14 +2995,14 @@
     border: 2px white;
     padding: 2px;
   }
-  body .nav p .nav-text {
+  body nav p nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body .nav p .nav-text:hover {
+  body nav p nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }

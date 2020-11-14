@@ -10,7 +10,7 @@
     body {
             width: 853px;
             margin: 0 auto;
-            .nav {
+            nav {
                 position: fixed;
                 top: 0;
                 height: 70px;
@@ -50,7 +50,7 @@
                             }
                         }
                     }
-                    .nav-text {
+                    nav-text {
                         text-decoration: none;
                         color: black;
                         transition: all .1s ease-in-out;
@@ -630,7 +630,7 @@
 
     body {
             margin: 0 auto;
-            .nav {
+            nav {
                 position: fixed;
                 top: 0;
                 height: 70px;
@@ -670,7 +670,7 @@
                             }
                         }
                     }
-                    .nav-text {
+                    nav-text {
                         text-decoration: none;
                         color: black;
                         transition: all .1s ease-in-out;
@@ -1246,7 +1246,7 @@
 
 body {
         margin: 0 auto;
-        .nav {
+        nav {
             position: fixed;
             top: 0;
             height: 70px;
@@ -1286,7 +1286,7 @@ body {
                         }
                     }
                 }
-                .nav-text {
+                nav-text {
                     text-decoration: none;
                     color: black;
                     transition: all .1s ease-in-out;
@@ -1857,7 +1857,7 @@ body {
 
     body {
         margin: 0 auto;
-        .nav {
+        nav {
             position: fixed;
             top: 0;
             height: 70px;
@@ -1900,7 +1900,7 @@ body {
                         padding: 2px;
                     }
                 }
-                .nav-text {
+                nav-text {
                     text-decoration: none;
                     color: black;
                     transition: all .1s ease-in-out;
@@ -2472,7 +2472,7 @@ body {
 
     body {
         margin: 0 auto;
-        .nav {
+        nav {
             position: fixed;
             top: 0;
             height: 100px;
@@ -2515,7 +2515,7 @@ body {
                         padding: 2px;
                     }
                 }
-                .nav-text {
+                nav-text {
                     text-decoration: none;
                     color: black;
                     transition: all .1s ease-in-out;
