@@ -395,7 +395,7 @@
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
   }
   #blog {
-    background-image: url(../img/bgimg6-rs.png);
+    background-image: url(../img/bgimg6.png);
     background-position: center;
     background-size: 100%;
     height: 650px;
@@ -1126,7 +1126,7 @@
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
   }
   #blog {
-    background-image: url(../img/bgimg6-rs.png);
+    background-image: url(../img/bgimg6.png);
     background-repeat: round;
     background-position: center;
     background-size: 100%;
@@ -1853,7 +1853,7 @@
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
   }
   #blog {
-    background-image: url(../img/bgimg6-rs.png);
+    background-image: url(../img/bgimg6.png);
     background-repeat: round;
     background-position: center;
     background-size: 100%;
@@ -3152,7 +3152,7 @@
   #gallery {
     background-color: #ffe92f;
     background-repeat: round;
-    height: 1380px;
+    height: 1595px;
     min-height: 900px;
     margin-top: -20px;
     padding-top: 50px;
@@ -3186,7 +3186,7 @@
         grid-template-rows: repeat(10, 1fr);
     gap: 15px 15px;
     margin: 10px auto 20px auto;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
   }
   #gallery .grid_container div {
     background-repeat: round;
@@ -3203,6 +3203,8 @@
   }
   #gallery .grid_container #container1 {
     background-image: url(../img/gallery_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 9;
@@ -3212,6 +3214,8 @@
   }
   #gallery .grid_container #container2 {
     background-image: url(../img/gallery_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -3221,6 +3225,8 @@
   }
   #gallery .grid_container #container3 {
     background-image: url(../img/gallery_3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -3230,6 +3236,8 @@
   }
   #gallery .grid_container #container4 {
     background-image: url(../img/gallery_4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 7;
@@ -3239,6 +3247,8 @@
   }
   #gallery .grid_container #container5 {
     background-image: url(../img/gallery_5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     -ms-grid-column: 7;
         grid-column-start: 7;
     grid-column-end: 13;
@@ -3270,7 +3280,7 @@
     background-image: url(../img/bgimg5.png);
     background-repeat: round;
     background-position: -10%;
-    height: 600px;
+    height: 620px;
     min-height: 350px;
     padding-left: 13%;
   }

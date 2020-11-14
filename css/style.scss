@@ -343,7 +343,7 @@
         }
     
         #blog {
-            background-image: url(../img/bgimg6-rs.png);
+            background-image: url(../img/bgimg6.png);
             background-position: center;
             background-size: 100%;
             height: 650px;
@@ -960,7 +960,7 @@
         }
     
         #blog {
-            background-image: url(../img/bgimg6-rs.png);
+            background-image: url(../img/bgimg6.png);
             background-repeat: round;
             background-position: center;
             background-size: 100%;
@@ -1571,7 +1571,7 @@ body {
     }
 
     #blog {
-        background-image: url(../img/bgimg6-rs.png);
+        background-image: url(../img/bgimg6.png);
         background-repeat: round;
         background-position: center;
         background-size: 100%;
@@ -2658,7 +2658,7 @@ body {
     #gallery {
         background-color: #ffe92f;
         background-repeat: round;
-        height: 1380px;
+        height: 1595px;
         min-height: 900px;
         margin-top: -20px;
         padding-top: 50px;
@@ -2686,7 +2686,7 @@ body {
             grid-template-rows: repeat(10, 1fr);
             gap: 15px 15px;
             margin: 10px auto 20px auto;
-            padding-bottom: 10px;
+            padding-bottom: 40px;
             div {
                 background-repeat: round;
                 filter: grayscale(.8);
@@ -2699,6 +2699,8 @@ body {
             }
             #container1 {
                 background-image: url(../img/gallery_1.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
                 grid-column-start: 1;
                 grid-column-end: 9;
                 grid-row-start: 1;
@@ -2706,6 +2708,8 @@ body {
             }
             #container2 {
                 background-image: url(../img/gallery_2.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
                 grid-column-start: 9;
                 grid-column-end: 13;
                 grid-row-start: 1;
@@ -2713,6 +2717,8 @@ body {
             }
             #container3 {
                 background-image: url(../img/gallery_3.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
                 grid-column-start: 9;
                 grid-column-end: 13;
                 grid-row-start: 4;
@@ -2720,6 +2726,8 @@ body {
             }
             #container4 {
                 background-image: url(../img/gallery_4.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
                 grid-column-start: 1;
                 grid-column-end: 7;
                 grid-row-start: 7;
@@ -2727,6 +2735,8 @@ body {
             }
             #container5 {
                 background-image: url(../img/gallery_5.png);
+                background-size: 100%;
+                background-repeat: no-repeat;
                 grid-column-start: 7;
                 grid-column-end: 13;
                 grid-row-start: 7;
@@ -2757,7 +2767,7 @@ body {
         background-image: url(../img/bgimg5.png);
         background-repeat: round;
         background-position: -10%;
-        height: 600px;
+        height: 620px;
         min-height: 350px;
         padding-left: 13%;
         p {
