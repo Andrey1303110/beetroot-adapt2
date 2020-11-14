@@ -77,7 +77,7 @@
     border-top: 3px solid orangered;
   }
   body #home {
-    background-image: url(../img/bgimg1.png);
+    background-image: url(../img/bgimg1-rs.png);
     background-color: #F9F8FB;
     background-repeat: cover;
     background-position: center;
@@ -123,7 +123,7 @@
     cursor: pointer;
   }
   #about_us {
-    background-image: url(../img/bgimg2-1.png);
+    background-image: url(../img/bgimg2-1-rs.png);
     background-color: #00BFBF;
     background-repeat: no-repeat;
     background-size: 127%;
@@ -153,7 +153,7 @@
     font-size: 18pt;
   }
   #services {
-    background-image: url(../img/bgimg3.png);
+    background-image: url(../img/bgimg3-rs.png);
     background-color: #70BFFF;
     background-repeat: no-repeat;
     background-position: center;
@@ -275,7 +275,7 @@
             filter: grayscale(0);
   }
   #gallery .grid_container #container1 {
-    background-image: url(../img/gallery_1.png);
+    background-image: url(../img/gallery_1-rs.png);
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 9;
@@ -284,7 +284,7 @@
     grid-row-end: 7;
   }
   #gallery .grid_container #container2 {
-    background-image: url(../img/gallery_2.png);
+    background-image: url(../img/gallery_2-rs.png);
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -293,7 +293,7 @@
     grid-row-end: 4;
   }
   #gallery .grid_container #container3 {
-    background-image: url(../img/gallery_3.png);
+    background-image: url(../img/gallery_3-rs.png);
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -302,7 +302,7 @@
     grid-row-end: 7;
   }
   #gallery .grid_container #container4 {
-    background-image: url(../img/gallery_4.png);
+    background-image: url(../img/gallery_4-rs.png);
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 7;
@@ -311,7 +311,7 @@
     grid-row-end: 14;
   }
   #gallery .grid_container #container5 {
-    background-image: url(../img/gallery_5.png);
+    background-image: url(../img/gallery_5-rs.png);
     -ms-grid-column: 7;
         grid-column-start: 7;
     grid-column-end: 13;
@@ -340,7 +340,7 @@
             transform: scale(1.1);
   }
   #subscribe {
-    background-image: url(../img/bgimg5.png);
+    background-image: url(../img/bgimg5-rs.png);
     background-repeat: no-repeat;
     background-position: 50px 110px;
     background-size: 90%;
@@ -395,7 +395,7 @@
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
   }
   #blog {
-    background-image: url(../img/bgimg6.png);
+    background-image: url(../img/bgimg6-rs.png);
     background-position: center;
     background-size: 100%;
     height: 650px;
@@ -512,16 +512,16 @@
     padding-top: 20px;
   }
   #blog .images div:nth-child(1) {
-    background-image: url(../img/blog_1.png);
+    background-image: url(../img/blog_1-rs.png);
   }
   #blog .images div:nth-child(2) {
-    background-image: url(../img/blog_2.png);
+    background-image: url(../img/blog_2-rs.png);
   }
   #blog .images div:nth-child(3) {
-    background-image: url(../img/blog_3.png);
+    background-image: url(../img/blog_3-rs.png);
   }
   #contacts {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg-rs.png);
     background-size: cover;
     background-position: center;
     font-family: 'Raleway', sans-serif;
@@ -811,7 +811,7 @@
     border-top: 3px solid orangered;
   }
   body #home {
-    background-image: url(../img/bgimg1.png);
+    background-image: url(../img/bgimg1-rs.png);
     background-color: #F9F8FB;
     background-repeat: cover;
     background-position: center;
@@ -856,7 +856,7 @@
     cursor: pointer;
   }
   #about_us {
-    background-image: url(../img/bgimg2-1.png);
+    background-image: url(../img/bgimg2-1-rs.png);
     background-color: #00BFBF;
     background-repeat: no-repeat;
     background-size: 120%;
@@ -886,7 +886,7 @@
     font-size: 14pt;
   }
   #services {
-    background-image: url(../img/bgimg3.png);
+    background-image: url(../img/bgimg3-rs.png);
     background-color: #70BFFF;
     background-repeat: no-repeat;
     background-position: center;
@@ -1008,7 +1008,7 @@
             filter: grayscale(0);
   }
   #gallery .grid_container #container1 {
-    background-image: url(../img/gallery_1.png);
+    background-image: url(../img/gallery_1-rs.png);
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 9;
@@ -1017,7 +1017,7 @@
     grid-row-end: 7;
   }
   #gallery .grid_container #container2 {
-    background-image: url(../img/gallery_2.png);
+    background-image: url(../img/gallery_2-rs.png);
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -1026,7 +1026,7 @@
     grid-row-end: 4;
   }
   #gallery .grid_container #container3 {
-    background-image: url(../img/gallery_3.png);
+    background-image: url(../img/gallery_3-rs.png);
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -1035,7 +1035,7 @@
     grid-row-end: 7;
   }
   #gallery .grid_container #container4 {
-    background-image: url(../img/gallery_4.png);
+    background-image: url(../img/gallery_4-rs.png);
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 7;
@@ -1044,7 +1044,7 @@
     grid-row-end: 14;
   }
   #gallery .grid_container #container5 {
-    background-image: url(../img/gallery_5.png);
+    background-image: url(../img/gallery_5-rs.png);
     -ms-grid-column: 7;
         grid-column-start: 7;
     grid-column-end: 13;
@@ -1073,7 +1073,7 @@
             transform: scale(1.1);
   }
   #subscribe {
-    background-image: url(../img/bgimg5.png);
+    background-image: url(../img/bgimg5-rs.png);
     background-repeat: no-repeat;
     background-position: -10px 95px;
     background-size: 100%;
@@ -1126,7 +1126,7 @@
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
   }
   #blog {
-    background-image: url(../img/bgimg6.png);
+    background-image: url(../img/bgimg6-rs.png);
     background-repeat: round;
     background-position: center;
     background-size: 100%;
@@ -1244,16 +1244,16 @@
     padding-top: 20px;
   }
   #blog .images div:nth-child(1) {
-    background-image: url(../img/blog_1.png);
+    background-image: url(../img/blog_1-rs.png);
   }
   #blog .images div:nth-child(2) {
-    background-image: url(../img/blog_2.png);
+    background-image: url(../img/blog_2-rs.png);
   }
   #blog .images div:nth-child(3) {
-    background-image: url(../img/blog_3.png);
+    background-image: url(../img/blog_3-rs.png);
   }
   #contacts {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg-rs.png);
     background-size: cover;
     background-position: center;
     font-family: 'Raleway', sans-serif;
@@ -1542,7 +1542,7 @@
     border-top: 3px solid orangered;
   }
   body #home {
-    background-image: url(../img/bgimg1.png);
+    background-image: url(../img/bgimg1-rs.png);
     background-color: #F9F8FB;
     background-repeat: cover;
     background-position: center;
@@ -1587,7 +1587,7 @@
     cursor: pointer;
   }
   #about_us {
-    background-image: url(../img/bgimg2.png);
+    background-image: url(../img/bgimg2-rs.png);
     background-color: #00B2B2;
     background-repeat: cover;
     background-position: center;
@@ -1616,7 +1616,7 @@
     font-size: 14pt;
   }
   #services {
-    background-image: url(../img/bgimg3.png);
+    background-image: url(../img/bgimg3-rs.png);
     background-color: #70BFFF;
     background-repeat: cover;
     background-position: center;
@@ -1737,7 +1737,7 @@
             filter: grayscale(0);
   }
   #gallery .grid_container #container1 {
-    background-image: url(../img/gallery_1.png);
+    background-image: url(../img/gallery_1-rs.png);
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 9;
@@ -1746,7 +1746,7 @@
     grid-row-end: 7;
   }
   #gallery .grid_container #container2 {
-    background-image: url(../img/gallery_2.png);
+    background-image: url(../img/gallery_2-rs.png);
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -1755,7 +1755,7 @@
     grid-row-end: 4;
   }
   #gallery .grid_container #container3 {
-    background-image: url(../img/gallery_3.png);
+    background-image: url(../img/gallery_3-rs.png);
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -1764,7 +1764,7 @@
     grid-row-end: 7;
   }
   #gallery .grid_container #container4 {
-    background-image: url(../img/gallery_4.png);
+    background-image: url(../img/gallery_4-rs.png);
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 7;
@@ -1773,7 +1773,7 @@
     grid-row-end: 14;
   }
   #gallery .grid_container #container5 {
-    background-image: url(../img/gallery_5.png);
+    background-image: url(../img/gallery_5-rs.png);
     -ms-grid-column: 7;
         grid-column-start: 7;
     grid-column-end: 13;
@@ -1802,7 +1802,7 @@
             transform: scale(1.1);
   }
   #subscribe {
-    background-image: url(../img/bgimg5.png);
+    background-image: url(../img/bgimg5-rs.png);
     background-repeat: round;
     height: 520px;
     min-height: 350px;
@@ -1853,7 +1853,7 @@
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
   }
   #blog {
-    background-image: url(../img/bgimg6.png);
+    background-image: url(../img/bgimg6-rs.png);
     background-repeat: round;
     background-position: center;
     background-size: 100%;
@@ -1973,16 +1973,16 @@
     padding-top: 20px;
   }
   #blog .images div:nth-child(1) {
-    background-image: url(../img/blog_1.png);
+    background-image: url(../img/blog_1-rs.png);
   }
   #blog .images div:nth-child(2) {
-    background-image: url(../img/blog_2.png);
+    background-image: url(../img/blog_2-rs.png);
   }
   #blog .images div:nth-child(3) {
-    background-image: url(../img/blog_3.png);
+    background-image: url(../img/blog_3-rs.png);
   }
   #contacts {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg-rs.png);
     background-size: cover;
     background-position: center;
     font-family: 'Raleway', sans-serif;
@@ -3368,7 +3368,8 @@
             transform: scale(1.1);
   }
   #blog .images {
-    width: 1441px;
+    width: 1660px;
+    height: 44%;
     margin: 0px auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3432,7 +3433,7 @@
   }
   #blog .images div .mid_text {
     font-size: 23pt;
-    padding-top: 88px;
+    padding-top: 30%;
   }
   #blog .images div .dw_text {
     font-size: 17pt;
