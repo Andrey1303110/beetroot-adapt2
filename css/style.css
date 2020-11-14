@@ -10,7 +10,7 @@
   font-family: Raleway,sans-serif;
 }
 
-@media screen and (min-width: 420px) and (max-width: 853px) {
+@media screen and (max-width: 853px) {
   body {
     width: 853px;
     margin: 0 auto;
@@ -55,7 +55,7 @@
     margin-top: -20px;
   }
   body .nav p:nth-child(2) {
-    padding-left: 50px;
+    padding-left: 38px;
   }
   body .nav p .logo img {
     height: 50px;
