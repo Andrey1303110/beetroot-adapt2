@@ -65,14 +65,14 @@
   body nav p .logo img:hover {
     fill: orangered;
   }
-  body nav p nav-text {
+  body nav p .nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body nav p nav-text:hover {
+  body nav p .nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -799,14 +799,14 @@
   body nav p .logo img:hover {
     fill: orangered;
   }
-  body nav p nav-text {
+  body nav p .nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body nav p nav-text:hover {
+  body nav p .nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -1530,14 +1530,14 @@
   body nav p .logo img:hover {
     fill: orangered;
   }
-  body nav p nav-text {
+  body nav p .nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body nav p nav-text:hover {
+  body nav p .nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -2262,14 +2262,14 @@
     border: 2px white;
     padding: 2px;
   }
-  body nav p nav-text {
+  body nav p .nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body nav p nav-text:hover {
+  body nav p .nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
@@ -2995,14 +2995,14 @@
     border: 2px white;
     padding: 2px;
   }
-  body nav p nav-text {
+  body nav p .nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     padding-top: 10px;
   }
-  body nav p nav-text:hover {
+  body nav p .nav-text:hover {
     color: orangered;
     border-top: 3px solid orangered;
   }
