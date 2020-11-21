@@ -8,7 +8,7 @@
 @media screen and (max-width: 480px) {
 
     body {
-            width: 480px;
+            max-width: 480px;
             margin: 0 auto;
             nav {
                 position: fixed;
@@ -221,8 +221,8 @@
                 width: 85%;
                 height: 62%;
                 display: grid;
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-rows: repeat(10, 1fr);
+                grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+                grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
                 gap: 15px 15px;
                 margin: 10px auto 20px auto;
                 padding-bottom: 10px;
@@ -842,8 +842,8 @@
                 width: 85%;
                 height: 62%;
                 display: grid;
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-rows: repeat(10, 1fr);
+                grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+                grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
                 gap: 15px 15px;
                 margin: 10px auto 20px auto;
                 padding-bottom: 10px;
@@ -1461,8 +1461,8 @@
                 width: 60%;
                 height: 60%;
                 display: grid;
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-rows: repeat(10, 1fr);
+                grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+                grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
                 gap: 15px 15px;
                 margin: 10px auto 20px auto;
                 padding-bottom: 10px;
@@ -2074,8 +2074,8 @@ body {
             width: 65%;
             height: 65%;
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: repeat(10, 1fr);
+            grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+            grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
             gap: 15px 15px;
             margin: 10px auto 20px auto;
             padding-bottom: 10px;
@@ -2688,8 +2688,8 @@ body {
             width: 70%;
             height: 68%;
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: repeat(10, 1fr);
+            grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+            grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
             gap: 15px 15px;
             margin: 10px auto 20px auto;
             padding-bottom: 10px;
@@ -3303,8 +3303,8 @@ body {
             width: 70%;
             height: 68%;
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: repeat(10, 1fr);
+            grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
+            grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
             gap: 15px 15px;
             margin: 10px auto 20px auto;
             padding-bottom: 40px;
