@@ -2280,7 +2280,7 @@
   #gallery {
     background-color: #ffe92f;
     background-repeat: round;
-    height: 750px;
+    height: 960px;
     min-height: 700px;
     margin-top: -20px;
     padding-top: 50px;
@@ -2304,8 +2304,8 @@
     padding-bottom: 25px;
   }
   #gallery .grid_container {
-    width: 60%;
-    height: 60%;
+    width: 800px;
+    height: 625px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -3009,7 +3009,7 @@
   #gallery {
     background-color: #ffe92f;
     background-repeat: round;
-    height: 1000px;
+    height: 1150px;
     min-height: 900px;
     margin-top: -20px;
     padding-top: 50px;
@@ -3033,8 +3033,8 @@
     padding-bottom: 25px;
   }
   #gallery .grid_container {
-    width: 65%;
-    height: 65%;
+    width: 1000px;
+    height: 780px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -3741,7 +3741,7 @@
   #gallery {
     background-color: #ffe92f;
     background-repeat: round;
-    height: 1100px;
+    height: 1320px;
     min-height: 900px;
     margin-top: -20px;
     padding-top: 50px;
@@ -3765,8 +3765,8 @@
     padding-bottom: 25px;
   }
   #gallery .grid_container {
-    width: 70%;
-    height: 68%;
+    width: 1200px;
+    height: 940px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -4292,7 +4292,7 @@
     font-weight: 600;
     text-align: center;
     height: 40%;
-    font-size: 18pt;
+    font-size: 25pt;
     margin-left: 8px;
     margin-right: 8px;
     position: relative;
@@ -4350,14 +4350,10 @@
   }
   body .text_block p:nth-child(1) {
     font-size: 70pt;
-    -webkit-margin-before: 10px;
-            margin-block-start: 10px;
-    -webkit-margin-after: 30px;
-            margin-block-end: 30px;
   }
   body .text_block p:nth-child(2) {
-    font-size: 20pt;
-    padding-bottom: 40px;
+    font-size: 30pt;
+    padding: 75px 0;
   }
   body .text_block button {
     display: block;
@@ -4375,10 +4371,11 @@
   }
   #about_us {
     background-image: url(../img/bgimg2.png);
+    background-size: 110%;
     background-color: #00B2B2;
     background-repeat: no-repeat;
-    background-position: 30%;
-    height: 700px;
+    background-position: 65%;
+    height: 1100px;
     min-height: 500px;
     margin-top: -18px;
   }
@@ -4390,46 +4387,49 @@
             margin-block-start: 15px;
     -webkit-margin-after: 15px;
             margin-block-end: 15px;
-    left: 51%;
-    top: 22%;
+    left: 54%;
   }
   #about_us p:nth-child(1) {
     font-size: 70pt;
+    padding: 80px 0;
   }
   #about_us p:nth-child(2) {
-    font-size: 18pt;
+    font-size: 30pt;
+    padding: 30px 0;
   }
   #about_us p:nth-child(3) {
-    font-size: 18pt;
+    font-size: 30pt;
+    padding: 30px 0;
   }
   #services {
     background-image: url(../img/bgimg3.png);
     background-color: #70BFFF;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 650px;
+    background-size: 2000px;
+    background-position: top;
+    height: 850px;
     min-height: 550px;
-    padding: 50px 0px;
+    padding: 50px 100px;
   }
   #services p {
     -webkit-margin-before: 0;
             margin-block-start: 0;
     -webkit-margin-after: 0;
             margin-block-end: 0;
-    font-size: 60pt;
+    font-size: 70pt;
     color: white;
     position: -webkit-sticky;
     position: sticky;
-    left: 57%;
-    top: 42%;
-    width: 35%;
+    left: 60%;
+    top: 35%;
+    width: 38%;
   }
   #services div {
     margin-top: -75px;
   }
   #services div li {
     width: 35%;
-    min-height: 80px;
+    height: 150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4474,9 +4474,8 @@
   #gallery {
     background-color: #ffe92f;
     background-repeat: round;
-    height: 1595px;
+    height: 1900px;
     min-height: 900px;
-    margin-top: -20px;
     padding-top: 50px;
   }
   #gallery p {
@@ -4491,15 +4490,15 @@
     padding-bottom: 25px;
   }
   #gallery p:nth-child(2) {
-    font-size: 20pt;
+    font-size: 30pt;
     text-align: center;
-    width: 700px;
+    width: 68%;
     margin: 0 auto;
     padding-bottom: 25px;
   }
   #gallery .grid_container {
-    width: 70%;
-    height: 68%;
+    width: 1645px;
+    height: 1308px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -4526,7 +4525,6 @@
   #gallery .grid_container #container1 {
     background-image: url(../img/gallery_1.png);
     background-size: 100%;
-    background-repeat: no-repeat;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 9;
@@ -4537,7 +4535,6 @@
   #gallery .grid_container #container2 {
     background-image: url(../img/gallery_2.png);
     background-size: 100%;
-    background-repeat: no-repeat;
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -4548,7 +4545,6 @@
   #gallery .grid_container #container3 {
     background-image: url(../img/gallery_3.png);
     background-size: 100%;
-    background-repeat: no-repeat;
     -ms-grid-column: 9;
         grid-column-start: 9;
     grid-column-end: 13;
@@ -4559,7 +4555,6 @@
   #gallery .grid_container #container4 {
     background-image: url(../img/gallery_4.png);
     background-size: 100%;
-    background-repeat: no-repeat;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 7;
@@ -4570,7 +4565,6 @@
   #gallery .grid_container #container5 {
     background-image: url(../img/gallery_5.png);
     background-size: 100%;
-    background-repeat: no-repeat;
     -ms-grid-column: 7;
         grid-column-start: 7;
     grid-column-end: 13;
@@ -4600,8 +4594,9 @@
   }
   #subscribe {
     background-image: url(../img/bgimg5.png);
-    background-repeat: round;
-    background-position: -10%;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-size: 100%;
     height: 620px;
     min-height: 350px;
     padding-left: 13%;
@@ -4622,18 +4617,19 @@
     width: 56%;
   }
   #subscribe input:nth-child(1) {
-    height: 50px;
+    height: 100px;
+    padding-left: 25px;
     width: 33%;
-    font-size: 22pt;
+    font-size: 28pt;
     margin-right: 30px;
   }
   #subscribe input:nth-child(1):valid {
     background-color: rgba(0, 255, 0, 0.5);
   }
   #subscribe input:nth-child(2) {
-    height: 56px;
+    height: 105px;
     width: 18%;
-    font-size: 20pt;
+    font-size: 28pt;
     background-color: rgba(0, 215, 0, 0.5);
     border: none;
     color: whitesmoke;
@@ -4655,7 +4651,7 @@
     background-repeat: round;
     background-position: center;
     background-size: 100%;
-    height: 870px;
+    height: 1000px;
     min-height: 550px;
     color: #f7f7f7;
   }
@@ -4672,7 +4668,7 @@
     padding-bottom: 20px;
   }
   #blog .sect_text {
-    font-size: 22pt;
+    font-size: 30pt;
     text-align: center;
     width: 60%;
     margin: 0 auto;
@@ -4701,7 +4697,7 @@
   }
   #blog .images {
     width: 1660px;
-    height: 44%;
+    height: 40%;
     margin: 0px auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4729,7 +4725,7 @@
   #blog .images div {
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 25%;
+    width: 26%;
     padding: 26px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -4789,7 +4785,7 @@
   }
   #contacts .main_block {
     padding: 60px 180px;
-    height: 710px;
+    height: 960px;
   }
   #contacts .main_block .main {
     font-weight: bolder;
@@ -4801,7 +4797,7 @@
             margin-block-end: 0em;
   }
   #contacts .main_block .description {
-    font-size: 22pt;
+    font-size: 30pt;
     font-weight: 600;
     text-align: center;
   }
@@ -4815,9 +4811,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   #contacts .main_block .panels form {
     width: 40%;
@@ -4833,24 +4829,24 @@
   #contacts .main_block .panels form .input_left:focus {
     background-color: #00b9b9be;
     border-left: 3px solid blue;
-    width: 85%;
+    width: 115%;
   }
   #contacts .main_block .panels form .text_input_left:focus {
     background-color: #00b9b9be;
     border-left: 3px solid blue;
-    width: 85%;
+    width: 115%;
   }
   #contacts .main_block .panels form .text_input_left {
     background-color: #00d3d33d;
-    width: 100%;
+    width: 140%;
+    height: 80%;
     padding-left: 8px;
     -webkit-transition: all .35s;
     transition: all .35s;
-    margin: 7px;
+    margin: 15px 0;
     border: none;
     border-color: transparent;
     outline: none;
-    height: 120px;
     resize: none;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -4873,12 +4869,12 @@
   }
   #contacts .main_block .panels form .input_left {
     background-color: #00d3d33d;
-    height: 23%;
-    width: 100%;
+    height: 25%;
+    width: 140%;
     padding-left: 8px;
     -webkit-transition: all .35s;
     transition: all .35s;
-    margin: 7px;
+    margin: 15px 0;
     border: none;
     border-color: transparent;
     outline: none;
@@ -4895,10 +4891,10 @@
             flex-direction: column;
   }
   #contacts .main_block .panels button {
-    width: 50%;
+    width: 70%;
     -webkit-transform: translateX(50%);
             transform: translateX(50%);
-    margin-top: 10px;
+    margin-top: 30px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -4911,22 +4907,23 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 30%;
   }
   #contacts .main_block .panels .right_panel p {
-    -webkit-margin-before: 5px;
-            margin-block-start: 5px;
-    -webkit-margin-after: 5px;
-            margin-block-end: 5px;
+    -webkit-margin-before: 3px;
+            margin-block-start: 3px;
+    -webkit-margin-after: 3px;
+            margin-block-end: 3px;
   }
   #contacts .main_block .panels .right_up_text {
-    font-size: 18pt;
+    font-size: 24pt;
     font-weight: 600;
   }
   #contacts .main_block .panels .right_dw_text {
-    font-size: 18pt;
+    font-size: 24pt;
   }
   #contacts .main_block .panels p:nth-child(even) {
-    padding-bottom: 7px;
+    padding-bottom: 20px;
   }
   #contacts footer {
     background-color: #1f1f1f;
