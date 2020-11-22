@@ -1933,10 +1933,13 @@
                     position: relative;
                     cursor: pointer;
                     &:nth-child(1) {
+                        display: none;
+                    }
+                    &:nth-child(2) {
                         padding: 0px 10px;
                         margin-top: -20px;
                     }
-                    &:nth-child(2) {
+                    &:nth-child(3) {
                         padding-left: 150px;
                     }
                     .logo {
@@ -2549,9 +2552,12 @@ body {
                 position: relative;
                 cursor: pointer;
                 &:nth-child(1) {
-                    padding: 0px 40px;
+                    display: none;
                 }
                 &:nth-child(2) {
+                    padding: 0px 40px;
+                }
+                &:nth-child(3) {
                     padding-left: 420px;
                 }
                 .logo {
@@ -3160,9 +3166,12 @@ body {
                 position: relative;
                 cursor: pointer;
                 &:nth-child(1) {
-                    padding: 0px 50px;
+                    display: none;
                 }
                 &:nth-child(2) {
+                    padding: 0px 50px;
+                }
+                &:nth-child(3) {
                     padding-left: 500px;
                 }
                 .logo {
@@ -3775,9 +3784,12 @@ body {
                 position: relative;
                 cursor: pointer;
                 &:nth-child(1) {
-                    padding: 0px 50px;
+                    display: none;
                 }
                 &:nth-child(2) {
+                    padding: 0px 50px;
+                }
+                &:nth-child(3) {
                     padding-left: 500px;
                 }
                 .logo {

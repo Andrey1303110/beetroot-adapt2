@@ -2176,10 +2176,13 @@
     cursor: pointer;
   }
   body nav p:nth-child(1) {
+    display: none;
+  }
+  body nav p:nth-child(2) {
     padding: 0px 10px;
     margin-top: -20px;
   }
-  body nav p:nth-child(2) {
+  body nav p:nth-child(3) {
     padding-left: 150px;
   }
   body nav p .logo img {
@@ -2907,9 +2910,12 @@
     cursor: pointer;
   }
   body nav p:nth-child(1) {
-    padding: 0px 40px;
+    display: none;
   }
   body nav p:nth-child(2) {
+    padding: 0px 40px;
+  }
+  body nav p:nth-child(3) {
     padding-left: 420px;
   }
   body nav p .logo img {
@@ -3635,9 +3641,12 @@
     cursor: pointer;
   }
   body nav p:nth-child(1) {
-    padding: 0px 50px;
+    display: none;
   }
   body nav p:nth-child(2) {
+    padding: 0px 50px;
+  }
+  body nav p:nth-child(3) {
     padding-left: 500px;
   }
   body nav p .logo img {
@@ -4368,9 +4377,12 @@
     cursor: pointer;
   }
   body nav p:nth-child(1) {
-    padding: 0px 50px;
+    display: none;
   }
   body nav p:nth-child(2) {
+    padding: 0px 50px;
+  }
+  body nav p:nth-child(3) {
     padding-left: 500px;
   }
   body nav p .logo img {
