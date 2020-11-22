@@ -831,18 +831,16 @@
                 grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
                 grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr);
                 gap: 10px;
-                margin: 10px auto 10px auto;
+                margin: 2px auto;
                 padding: 5% 0;
                 div {
                     background-repeat: round;
                     filter: grayscale(.8);
-                    border-radius: 3%;
-                    transition: all .3s ease-in-out;
+                    border-radius: 5%;
+                    transition: all .5s ease-in-out;
                     cursor: pointer;
-                    &:hover {
-                        filter: grayscale(0);
-                        transform: scale(1.1);
-                    }
+                    z-index: 3;
+                    opacity: .9;
                 }
                 #container1 {
                     background-image: url(../img/gallery_1-rs.png);
@@ -850,6 +848,12 @@
                     grid-column-end: 9;
                     grid-row-start: 1;
                     grid-row-end: 7;
+                    &:hover {
+                        transform: scale(1.5) translate(17%, 25%);
+                        filter: grayscale(0);
+                        opacity: 1;
+                        z-index: 100;
+                    }
                 }
                 #container2 {
                     background-image: url(../img/gallery_2-rs.png);
@@ -857,6 +861,12 @@
                     grid-column-end: 13;
                     grid-row-start: 1;
                     grid-row-end: 4;
+                    &:hover {
+                        transform: scale(3.2) translate(-35%, 46%);
+                        filter: grayscale(0);
+                        opacity: 1;
+                        z-index: 100;
+                    }
                 }
                 #container3 {
                     background-image: url(../img/gallery_3-rs.png);
@@ -864,6 +874,12 @@
                     grid-column-end: 13;
                     grid-row-start: 4;
                     grid-row-end: 7;
+                    &:hover {
+                        transform: scale(3.2) translate(-35%, 10%);
+                        filter: grayscale(0);
+                        opacity: 1;
+                        z-index: 100;
+                    }
                 }
                 #container4 {
                     background-image: url(../img/gallery_4-rs.png);
@@ -871,6 +887,12 @@
                     grid-column-end: 7;
                     grid-row-start: 7;
                     grid-row-end: 12;
+                    &:hover {
+                        transform: scale(2) translate(27%, -39%);
+                        filter: grayscale(0);
+                        opacity: 1;
+                        z-index: 100;
+                    }
                 }
                 #container5 {
                     background-image: url(../img/gallery_5-rs.png);
@@ -878,6 +900,12 @@
                     grid-column-end: 13;
                     grid-row-start: 7;
                     grid-row-end: 12;
+                    &:hover {
+                        transform: scale(2) translate(-27%, -34%);
+                        filter: grayscale(0);
+                        opacity: 1;
+                        z-index: 100;
+                    }
                 }
             }
             form {
@@ -937,7 +965,7 @@
                 }
             }
             input:nth-child(2) {
-                margin-top: 10%;
+                margin: 10% 0;
                 height: 56px;
                 width: 88.5%;
                 font-size: 20pt;
