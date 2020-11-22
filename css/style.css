@@ -1409,14 +1409,13 @@
   body nav {
     position: fixed;
     top: 0;
-    height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-line-pack: justify;
         align-content: space-between;
     -webkit-box-pack: space-evenly;
@@ -1425,43 +1424,69 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    z-index: 100;
+    z-index: 5;
     width: 100%;
     background-color: rgba(226, 226, 226, 0.6);
   }
   body nav p {
-    display: block;
+    font-size: 0;
+    height: 0px;
+    margin-bottom: 0px;
+    height: 90px;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
-    height: 40%;
-    font-size: 18pt;
-    margin-left: 8px;
-    margin-right: 8px;
-    position: relative;
     cursor: pointer;
+    -webkit-transition: all .45s ease-in;
+    transition: all .45s ease-in;
   }
-  body nav p:nth-child(1) {
-    padding: 0px 10px;
-    margin-top: -20px;
-  }
-  body nav p:nth-child(2) {
-    padding-left: 38px;
+  body nav p a img {
+    height: 90px;
   }
   body nav p .logo img {
+    height: 0px;
+  }
+  body nav p:nth-child(2) {
+    height: 0px;
+  }
+  body nav p:nth-child(3) {
+    height: 0px;
+  }
+  body nav p:nth-child(4) {
+    height: 0px;
+  }
+  body nav p:nth-child(5) {
+    height: 0px;
+  }
+  body nav p:nth-child(6) {
+    height: 0px;
+  }
+  body nav p:nth-child(7) {
+    height: 0px;
+  }
+  body nav p:nth-child(8) {
+    height: 0px;
+  }
+  body nav p:nth-child(1) {
+    z-index: 5;
+  }
+  body nav p:nth-child(1):hover ~ p {
     height: 50px;
-    cursor: pointer;
+    padding: .5em;
+    display: block;
+    font-size: 28pt;
     position: relative;
   }
-  body nav p .logo img:hover {
-    fill: orangered;
+  body nav p:nth-child(1):hover ~ p a img {
+    -webkit-transition: all .45s ease-in;
+    transition: all .45s ease-in;
+    height: 70px;
   }
   body nav p .nav-text {
     text-decoration: none;
     color: black;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
-    padding-top: 10px;
   }
   body nav p .nav-text:hover {
     color: orangered;
