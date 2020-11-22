@@ -617,7 +617,7 @@
     */ // оставил для закрытия коммента
         
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (orientation: portrait) {
     * {overflow-x: hidden;}
 
     body {
@@ -626,26 +626,58 @@
             }
 
             nav {
-                position: relative;
+                position: fixed;
                 top: 0;
                 display: flex;
                 flex-direction: column;
                 align-content: space-between;
                 justify-content: space-evenly;
                 align-items: center;
-                z-index: 100;
+                z-index: 5;
                 width: 100%;
                 background-color: rgba(226, 226, 226, 0.6);
                 p {
-                    display: block;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                    text-align: center;
-                    font-size: 22pt;
-                    position: relative;
+                    font-size: 0;
+                    height: 0px;
+                    margin-bottom: 0px;
+                    height: 50px;
+                    &:nth-child(2) {
+                        height: 0px;
+                    }
+                    &:nth-child(3) {
+                        height: 0px;
+                    }
+                    &:nth-child(4) {
+                        height: 0px;
+                    }
+                    &:nth-child(5) {
+                        height: 0px;
+                    }
+                    &:nth-child(6) {
+                        height: 0px;
+                    }
+                    &:nth-child(7) {
+                        height: 0px;
+                    }
+                    &:nth-child(8) {
+                        height: 0px;
+                    }                  
                     cursor: pointer;
-                    padding: .5em;
-                    .logo {
+                    transition: all .45s ease-in;
+                    &:nth-child(1){
+                        z-index: 5;
+                            &:hover ~ p {
+                                height: 50px;
+                                padding: .3em;
+                                display: block;
+                                text-transform: uppercase;
+                                font-weight: 600;
+                                text-align: center;
+                                font-size: 22pt;
+                                position: relative;
+                            } 
+                    }
+                    a {
                         img {
                             height: 50px;
                         }
@@ -660,7 +692,8 @@
                         }
                     }
                 }
-        }
+            }
+
     
         #home {
             background-size: 130%;
@@ -862,7 +895,7 @@
                     grid-row-start: 1;
                     grid-row-end: 4;
                     &:hover {
-                        transform: scale(3.2) translate(-35%, 46%);
+                        transform: scale(3.1) translate(-35%, 46%);
                         filter: grayscale(0);
                         opacity: 1;
                         z-index: 100;
@@ -875,7 +908,7 @@
                     grid-row-start: 4;
                     grid-row-end: 7;
                     &:hover {
-                        transform: scale(3.2) translate(-35%, 10%);
+                        transform: scale(3.1) translate(-35%, 10%);
                         filter: grayscale(0);
                         opacity: 1;
                         z-index: 100;

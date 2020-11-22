@@ -622,7 +622,7 @@
         }
     }
     */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (orientation: portrait) {
   * {
     overflow-x: hidden;
   }
@@ -631,7 +631,7 @@
     margin: 0 auto;
   }
   nav {
-    position: relative;
+    position: fixed;
     top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -648,21 +648,54 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    z-index: 100;
+    z-index: 5;
     width: 100%;
     background-color: rgba(226, 226, 226, 0.6);
   }
   nav p {
+    font-size: 0;
+    height: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transition: all .45s ease-in;
+    transition: all .45s ease-in;
+  }
+  nav p:nth-child(2) {
+    height: 0px;
+  }
+  nav p:nth-child(3) {
+    height: 0px;
+  }
+  nav p:nth-child(4) {
+    height: 0px;
+  }
+  nav p:nth-child(5) {
+    height: 0px;
+  }
+  nav p:nth-child(6) {
+    height: 0px;
+  }
+  nav p:nth-child(7) {
+    height: 0px;
+  }
+  nav p:nth-child(8) {
+    height: 0px;
+  }
+  nav p:nth-child(1) {
+    z-index: 5;
+  }
+  nav p:nth-child(1):hover ~ p {
+    height: 50px;
+    padding: .3em;
     display: block;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
     font-size: 22pt;
     position: relative;
-    cursor: pointer;
-    padding: .5em;
   }
-  nav p .logo img {
+  nav p a img {
     height: 50px;
   }
   nav p .nav-text {
@@ -900,8 +933,8 @@
     grid-row-end: 4;
   }
   #gallery .grid_container #container2:hover {
-    -webkit-transform: scale(3.2) translate(-35%, 46%);
-            transform: scale(3.2) translate(-35%, 46%);
+    -webkit-transform: scale(3.1) translate(-35%, 46%);
+            transform: scale(3.1) translate(-35%, 46%);
     -webkit-filter: grayscale(0);
             filter: grayscale(0);
     opacity: 1;
@@ -917,8 +950,8 @@
     grid-row-end: 7;
   }
   #gallery .grid_container #container3:hover {
-    -webkit-transform: scale(3.2) translate(-35%, 10%);
-            transform: scale(3.2) translate(-35%, 10%);
+    -webkit-transform: scale(3.1) translate(-35%, 10%);
+            transform: scale(3.1) translate(-35%, 10%);
     -webkit-filter: grayscale(0);
             filter: grayscale(0);
     opacity: 1;
