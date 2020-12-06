@@ -689,8 +689,8 @@
     z-index: 5;
   }
   nav p:nth-child(1):hover ~ p {
-    height: 50px;
-    padding: .3em;
+    height: 45px;
+    padding: .1em;
     display: block;
     text-transform: uppercase;
     font-weight: 600;
