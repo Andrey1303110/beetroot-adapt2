@@ -682,6 +682,9 @@
   nav p:nth-child(8) {
     height: 0px;
   }
+  nav p:nth-child(9) {
+    height: 0px;
+  }
   nav p:nth-child(1) {
     z-index: 5;
   }
@@ -1465,6 +1468,9 @@
     height: 0px;
   }
   body nav p:nth-child(8) {
+    height: 0px;
+  }
+  body nav p:nth-child(9) {
     height: 0px;
   }
   body nav p:nth-child(1) {

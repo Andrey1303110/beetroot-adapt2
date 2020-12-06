@@ -38,4 +38,4 @@ function addColorToNavBar() {
     }
 }
 
-addColorToNavBar;
+addColorToNavBar();

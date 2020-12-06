@@ -661,7 +661,10 @@
                     }
                     &:nth-child(8) {
                         height: 0px;
-                    }                  
+                    }
+                    &:nth-child(9) {
+                        height: 0px;
+                    }                   
                     cursor: pointer;
                     transition: all .45s ease-in;
                     &:nth-child(1){
@@ -1337,6 +1340,9 @@
                         height: 0px;
                     }
                     &:nth-child(8) {
+                        height: 0px;
+                    }
+                    &:nth-child(9) {
                         height: 0px;
                     }                  
                     cursor: pointer;
