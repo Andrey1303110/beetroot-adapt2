@@ -1,7 +1,7 @@
 function addColorToNavBar() {
     let nav = document.querySelector("nav");
     let windowWidth = window.innerWidth;
-    if (windowWidth > 854) {
+    if (windowWidth > 1151) {
         window.addEventListener("scroll", function () {
             let scrollPos = window.scrollY;
             console.log(scrollPos);
@@ -30,6 +30,41 @@ function addColorToNavBar() {
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToContacts');
             }
             else if (scrollPos > 4796) {
+                nav.classList.add('scrolledToContacts');
+                nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog');
+            }
+            else () => nav.classList.add('scrolledStand');
+        });
+    }
+    else if (windowWidth > 1440) {
+        window.addEventListener("scroll", function () {
+            let scrollPos = window.scrollY;
+            console.log(scrollPos);
+            if (scrollPos > 1, scrollPos < 799) {
+                nav.classList.add('scrolledToHome');
+                nav.classList.remove('scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
+            }
+            else if (scrollPos < 1499) {
+                nav.classList.add('scrolledToAbout');
+                nav.classList.remove('scrolledToHome', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
+            }
+            else if (scrollPos < 2229) {
+                nav.classList.add('scrolledToServices');
+                nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
+            }
+            else if (scrollPos < 3599) {
+                nav.classList.add('scrolledToGallery');
+                nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
+            }
+            else if (scrollPos < 4097) {
+                nav.classList.add('scrolledToSubscribe');
+                nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToBlog', 'scrolledToContacts');
+            }
+            else if (scrollPos < 4948) {
+                nav.classList.add('scrolledToBlog');
+                nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToContacts');
+            }
+            else if (scrollPos > 4948) {
                 nav.classList.add('scrolledToContacts');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog');
             }
