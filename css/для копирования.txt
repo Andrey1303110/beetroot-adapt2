@@ -1,46 +1,27 @@
-            nav {
-                position: fixed;
-                top: 0;
-                display: flex;
-                flex-direction: column;
-                align-content: space-between;
-                justify-content: space-evenly;
-                align-items: center;
-                z-index: 5;
-                width: 100%;
-                background-color: rgba(226, 226, 226, 0.6);
-                p {
-                    display: block;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                    text-align: center;
-                    font-size: 22pt;
-                    position: relative;
-                    cursor: pointer;
-                    padding: .4em;
-                    transition: all .5s ease-in;
-                    z-index: -1;
-                    &:nth-child(1){
-                        z-index: 5;
-                            &:hover ~ p {
-                            font-size: 0;
-                            height: 0px;
-                            margin-bottom: 0px;
-                            } 
-                    }
-                    a {
-                        img {
-                            height: 50px;
-                        }
-                    }
-                    .nav-text {
-                        text-decoration: none;
-                        color: black;
-                        transition: all .1s ease-in-out;
-                        &:hover {
-                            color: orangered;
-                            border-top: 3px solid orangered;
-                        }
-                    }
+        .scrolledToHome{
+            background-color: rgba(255, 255, 255, 0.0); 
+        }
+        .scrolledToAbout{
+            background-color: rgba(58, 58, 211, 0.7); 
+        }
+        .scrolledToServices{
+            background-color: rgba(108, 40, 190, 0.7); 
+        }
+        .scrolledToGallery{
+            background-color: rgba(109, 218, 73, 0.7); 
+        }
+        .scrolledToSubscribe{
+            background-color: rgba(30, 216, 216, 0.7); 
+        }
+        .scrolledToBlog{
+            background-color: rgba(255, 62, 62, 0.7); 
+        }
+        .scrolledToContacts{
+            background-color: rgba(56, 56, 56, 0.7);
+            .nav-text {
+                    color: rgb(243, 243, 243);
                 }
-            }
+        }
+        .scrolledStand{
+            background-color: rgba(230, 230, 230, 0.7); 
+        }
