@@ -1940,6 +1940,33 @@
 
     body {
             margin: 0 auto;
+            .scrolledToHome{
+                background-color: rgba(255, 255, 255, 0.0); 
+            }
+            .scrolledToAbout{
+                background-color: rgba(58, 58, 211, 0.7); 
+            }
+            .scrolledToServices{
+                background-color: rgba(108, 40, 190, 0.7); 
+            }
+            .scrolledToGallery{
+                background-color: rgba(109, 218, 73, 0.7); 
+            }
+            .scrolledToSubscribe{
+                background-color: rgba(30, 216, 216, 0.7); 
+            }
+            .scrolledToBlog{
+                background-color: rgba(255, 62, 62, 0.7); 
+            }
+            .scrolledToContacts{
+                background-color: rgba(56, 56, 56, 0.7);
+                .nav-text {
+                        color: rgb(243, 243, 243);
+                    }
+            }
+            .scrolledStand{
+                background-color: rgba(230, 230, 230, 0.7); 
+            }
             nav {
                 position: fixed;
                 top: 0;
@@ -2559,6 +2586,33 @@
 
 body {
         margin: 0 auto;
+        .scrolledToHome{
+            background-color: rgba(255, 255, 255, 0.0); 
+        }
+        .scrolledToAbout{
+            background-color: rgba(58, 58, 211, 0.7); 
+        }
+        .scrolledToServices{
+            background-color: rgba(108, 40, 190, 0.7); 
+        }
+        .scrolledToGallery{
+            background-color: rgba(109, 218, 73, 0.7); 
+        }
+        .scrolledToSubscribe{
+            background-color: rgba(30, 216, 216, 0.7); 
+        }
+        .scrolledToBlog{
+            background-color: rgba(255, 62, 62, 0.7); 
+        }
+        .scrolledToContacts{
+            background-color: rgba(56, 56, 56, 0.7);
+            .nav-text {
+                    color: rgb(243, 243, 243);
+                }
+        }
+        .scrolledStand{
+            background-color: rgba(230, 230, 230, 0.7); 
+        }
         nav {
             position: fixed;
             top: 0;
@@ -3173,6 +3227,33 @@ body {
 
     body {
         margin: 0 auto;
+        .scrolledToHome{
+            background-color: rgba(255, 255, 255, 0.0); 
+        }
+        .scrolledToAbout{
+            background-color: rgba(58, 58, 211, 0.7); 
+        }
+        .scrolledToServices{
+            background-color: rgba(108, 40, 190, 0.7); 
+        }
+        .scrolledToGallery{
+            background-color: rgba(109, 218, 73, 0.7); 
+        }
+        .scrolledToSubscribe{
+            background-color: rgba(30, 216, 216, 0.7); 
+        }
+        .scrolledToBlog{
+            background-color: rgba(255, 62, 62, 0.7); 
+        }
+        .scrolledToContacts{
+            background-color: rgba(56, 56, 56, 0.7);
+            .nav-text {
+                    color: rgb(243, 243, 243);
+                }
+        }
+        .scrolledStand{
+            background-color: rgba(230, 230, 230, 0.7); 
+        }
         nav {
             position: fixed;
             top: 0;
@@ -3791,6 +3872,33 @@ body {
 
     body {
         margin: 0 auto;
+        .scrolledToHome{
+            background-color: rgba(255, 255, 255, 0.0); 
+        }
+        .scrolledToAbout{
+            background-color: rgba(58, 58, 211, 0.7); 
+        }
+        .scrolledToServices{
+            background-color: rgba(108, 40, 190, 0.7); 
+        }
+        .scrolledToGallery{
+            background-color: rgba(109, 218, 73, 0.7); 
+        }
+        .scrolledToSubscribe{
+            background-color: rgba(30, 216, 216, 0.7); 
+        }
+        .scrolledToBlog{
+            background-color: rgba(255, 62, 62, 0.7); 
+        }
+        .scrolledToContacts{
+            background-color: rgba(56, 56, 56, 0.7);
+            .nav-text {
+                    color: rgb(243, 243, 243);
+                }
+        }
+        .scrolledStand{
+            background-color: rgba(230, 230, 230, 0.7); 
+        }
         nav {
             position: fixed;
             top: 0;
