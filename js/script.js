@@ -5,7 +5,7 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollPos = window.scrollY;
             console.log(scrollPos);
-            if (scrollPos > 1 && scrollPos < 947) {
+            if (scrollPos < 947) {
                 nav.classList.add('scrolledToHome');
                 nav.classList.remove('scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
@@ -40,7 +40,7 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollPos = window.scrollY;
             console.log(scrollPos);
-            if (scrollPos > 1, scrollPos < 947) {
+            if (scrollPos < 947) {
                 nav.classList.add('scrolledToHome');
                 nav.classList.remove('scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
@@ -75,7 +75,7 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollPos = window.scrollY;
             console.log(scrollPos);
-            if (scrollPos > 1 && scrollPos < 936) {
+            if (scrollPos < 936) {
                 nav.classList.add('scrolledToHome');
                 nav.classList.remove('scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
