@@ -5074,19 +5074,19 @@
   }
   #contacts .main_block .panels form ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 20pt;
+    font-size: 24pt;
   }
   #contacts .main_block .panels form :-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 20pt;
+    font-size: 24pt;
   }
   #contacts .main_block .panels form ::-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 20pt;
+    font-size: 24pt;
   }
   #contacts .main_block .panels form ::placeholder {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 20pt;
+    font-size: 24pt;
   }
   #contacts .main_block .panels form .input_left {
     background-color: #00d3d33d;
