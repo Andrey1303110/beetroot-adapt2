@@ -83,7 +83,7 @@ function addColorToNavBar() {
                 nav.classList.add('scrolledToAbout');
                 nav.classList.remove('scrolledToHome', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
-            else if (scrollPos < 2985) {
+            else if (scrollPos < 2987) {
                 nav.classList.add('scrolledToServices');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
