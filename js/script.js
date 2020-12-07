@@ -75,31 +75,31 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollPos = window.scrollY;
             console.log(scrollPos);
-            if (scrollPos > 1, scrollPos < 937) {
+            if (scrollPos > 1, scrollPos < 936) {
                 nav.classList.add('scrolledToHome');
                 nav.classList.remove('scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
-            else if (scrollPos < 2037) {
+            else if (scrollPos < 2036) {
                 nav.classList.add('scrolledToAbout');
                 nav.classList.remove('scrolledToHome', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
-            else if (scrollPos < 2987) {
+            else if (scrollPos < 2986) {
                 nav.classList.add('scrolledToServices');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
-            else if (scrollPos < 4937) {
+            else if (scrollPos < 4936) {
                 nav.classList.add('scrolledToGallery');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
-            else if (scrollPos < 5557) {
+            else if (scrollPos < 5556) {
                 nav.classList.add('scrolledToSubscribe');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToBlog', 'scrolledToContacts');
             }
-            else if (scrollPos < 6557) {
+            else if (scrollPos < 6397) {
                 nav.classList.add('scrolledToBlog');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToContacts');
             }
-            else if (scrollPos >= 6557) {
+            else if (scrollPos >= 6397) {
                 nav.classList.add('scrolledToContacts');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog');
             }
