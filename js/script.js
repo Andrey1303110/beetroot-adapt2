@@ -5,7 +5,7 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollPos = window.scrollY;
             console.log(scrollPos);
-            if (scrollPos < 947) {
+            if (scrollPos < 944) {
                 nav.classList.add('scrolledToHome');
                 nav.classList.remove('scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
@@ -40,11 +40,11 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollPos = window.scrollY;
             console.log(scrollPos);
-            if (scrollPos < 947) {
+            if (scrollPos < 946) {
                 nav.classList.add('scrolledToHome');
                 nav.classList.remove('scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
-            else if (scrollPos < 1647) {
+            else if (scrollPos < 1641) {
                 nav.classList.add('scrolledToAbout');
                 nav.classList.remove('scrolledToHome', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog', 'scrolledToContacts');
             }
@@ -64,7 +64,7 @@ function addColorToNavBar() {
                 nav.classList.add('scrolledToBlog');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToContacts');
             }
-            else if (scrollPos >= 5097) {
+            else if (scrollPos >= 5098) {
                 nav.classList.add('scrolledToContacts');
                 nav.classList.remove('scrolledToHome', 'scrolledToAbout', 'scrolledToServices', 'scrolledToGallery', 'scrolledToSubscribe', 'scrolledToBlog');
             }
