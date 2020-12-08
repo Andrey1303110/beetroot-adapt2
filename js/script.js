@@ -9,14 +9,7 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
-            if (scrollPos = 0) {
-                nav.classList.remove();
-                nav.classList.add('scrolledStand');
-            }
-            if (scrollPos = 0) {
-                nav.classList.remove();
-                nav.classList.add('scrolledStand');
-            }
+            nav.classList = ('');
             if (scrollPos < arrSmallScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
@@ -51,10 +44,7 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
-            if (scrollPos = 0) {
-                nav.classList.remove();
-                nav.classList.add('scrolledStand');
-            }
+            nav.classList = ('');
             if (scrollPos < arrMiddleScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
@@ -89,10 +79,7 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
-            if (scrollPos = 0) {
-                nav.classList.remove();
-                nav.classList.add('scrolledStand');
-            }
+            nav.classList = ('');
             if (scrollPos < arrMiddlePlusScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
@@ -127,37 +114,41 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
-            if (scrollPos = 0) {
-                nav.classList.remove();
-                nav.classList.add('scrolledStand');
-            }
+            nav.classList = ('');
             if (scrollPos < arrHDScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
+                console.log(scrollPos);
             }
             else if (scrollPos < arrHDScreen[2]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToAbout');
+                console.log(scrollPos);
             }
             else if (scrollPos < arrHDScreen[3]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToServices');
+                console.log(scrollPos);
             }
             else if (scrollPos < arrHDScreen[4]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToGallery');
+                console.log(scrollPos);
             }
             else if (scrollPos < arrHDScreen[5]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToSubscribe');
+                console.log(scrollPos);
             }
             else if (scrollPos < arrHDScreen[6]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToBlog');
+                console.log(scrollPos);
             }
             else if (scrollPos >= arrHDScreen[6]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToContacts');
+                console.log(scrollPos);
             }
         });
     }

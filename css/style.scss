@@ -2919,19 +2919,24 @@ body {
             font-size: 17pt;
             margin-right: 30px;
             &:valid {
-                background-color: rgba(0, 255, 0, 0.5);
+                background-color: rgba(0, 225, 0, 0.5);
+            }
+            &:valid ~ input {
+                opacity: 1;
             }
         }
         input:nth-child(2) {
             height: 56px;
             width: 18%;
             font-size: 20pt;
-            background-color: rgba(0, 215, 0, 0.5);
+            background-color: rgba(0, 225, 0, 0.5);
             border: none;
             color: whitesmoke;
             box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
-            transition: .12s ease-in-out;
+            transition: .15s ease-in-out, 
+                opacity .55s ease-in-out;
             cursor: pointer;
+            opacity: 0;
             &:active {
                 background-color: rgba(0, 225, 0, 0.7);
                 transform: translateX(8px);
@@ -3133,7 +3138,7 @@ body {
             }
             button {
                 width: 50%;
-                transform: translateX(50%);
+                transform: translateX(56%);
                 margin-top: 30px;
                 align-self: center;
             }

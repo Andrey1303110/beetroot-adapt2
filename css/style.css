@@ -3312,20 +3312,24 @@
     margin-right: 30px;
   }
   #subscribe input:nth-child(1):valid {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 225, 0, 0.5);
+  }
+  #subscribe input:nth-child(1):valid ~ input {
+    opacity: 1;
   }
   #subscribe input:nth-child(2) {
     height: 56px;
     width: 18%;
     font-size: 20pt;
-    background-color: rgba(0, 215, 0, 0.5);
+    background-color: rgba(0, 225, 0, 0.5);
     border: none;
     color: whitesmoke;
     -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
             box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: .12s ease-in-out;
-    transition: .12s ease-in-out;
+    -webkit-transition: .12s ease-in-out, opacity .55s ease-in-out;
+    transition: .12s ease-in-out, opacity .55s ease-in-out;
     cursor: pointer;
+    opacity: 0;
   }
   #subscribe input:nth-child(2):active {
     background-color: rgba(0, 225, 0, 0.7);
@@ -3578,8 +3582,8 @@
   }
   #contacts .main_block .panels button {
     width: 50%;
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
+    -webkit-transform: translateX(56%);
+            transform: translateX(56%);
     margin-top: 30px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
