@@ -1998,7 +1998,7 @@
                         margin-top: -20px;
                     }
                     &:nth-child(3) {
-                        padding-left: 150px;
+                        padding-left: 100px;
                     }
                     .logo {
                         img {
@@ -2432,7 +2432,7 @@
                     flex-direction: row;
                     justify-content: space-evenly;
                     form {
-                        width: 60%;
+                        width: 100%;
                         margin-right: 50px;
     
                     .input_left:valid {
@@ -2491,8 +2491,8 @@
     
                 }
                 button {
-                    width: 50%;
-                    transform: translateX(50%);
+                    width: 60%;
+                    transform: translateX(40%);
                     margin-top: 30px;
                     align-self: center;
                 }
@@ -2643,7 +2643,7 @@ body {
                     padding: 0px 40px;
                 }
                 &:nth-child(3) {
-                    padding-left: 420px;
+                    padding-left: 370px;
                 }
                 .logo {
                     img {

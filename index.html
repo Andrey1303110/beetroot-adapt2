@@ -127,15 +127,23 @@
                 </div>
 
                 <div class="panels">
-                    <form action="./otpravka.php" method="POST" class="left_panel">
-                        <input type="text" minlength="3" class="input_left" placeholder="Your name" autocomplete="name"
-                            required>
-                        <input type="email" minlength="6" class="input_left" placeholder="Your e-mail"
-                            autocomplete="email" required>
-                        <input type="tel" minlength="10" class="input_left" placeholder="Your phone number"
-                            autocomplete="tel" required pattern="[0-9]">
-                        <textarea class="text_input_left" placeholder="Your message"></textarea>
-                        <button class="mail-btn" name="otpravka" type="submit">send</button>
+                    <form action="https://formspree.io/f/mleopgjl" method="POST" class="left_panel">
+                        <label for="Name">
+                            <input type="text" name="Name" minlength="3" class="input_left" placeholder="Your name"
+                                autocomplete="name" required>
+                        </label>
+                        <label for="E-mail">
+                            <input type="email" name="E-mail" minlength="6" class="input_left" placeholder="Your e-mail"
+                                autocomplete="email" required>
+                        </label>
+                        <label for="Phone number">
+                            <input type="tel" name="Phone number" minlength="9" class="input_left"
+                                placeholder="Your phone number" autocomplete="tel" required>
+                        </label>
+                        <label for="Message">
+                            <textarea class="text_input_left" name="Message" placeholder="Your message"></textarea>
+                        </label>
+                        <button class="mail-btn" type="submit">send</button>
                     </form>
 
                     <div class="right_panel">

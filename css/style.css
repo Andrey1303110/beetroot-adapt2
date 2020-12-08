@@ -2241,7 +2241,7 @@
     margin-top: -20px;
   }
   body nav p:nth-child(3) {
-    padding-left: 150px;
+    padding-left: 100px;
   }
   body nav p .logo img {
     height: 45px;
@@ -2743,7 +2743,7 @@
             justify-content: space-evenly;
   }
   #contacts .main_block .panels form {
-    width: 60%;
+    width: 100%;
     margin-right: 50px;
   }
   #contacts .main_block .panels form .input_left:valid {
@@ -2819,9 +2819,9 @@
             flex-direction: column;
   }
   #contacts .main_block .panels button {
-    width: 50%;
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
+    width: 60%;
+    -webkit-transform: translateX(40%);
+            transform: translateX(40%);
     margin-top: 30px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -3001,7 +3001,7 @@
     padding: 0px 40px;
   }
   body nav p:nth-child(3) {
-    padding-left: 420px;
+    padding-left: 370px;
   }
   body nav p .logo img {
     height: 45px;
