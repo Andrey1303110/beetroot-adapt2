@@ -9,6 +9,14 @@ function addColorToNavBar() {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
+            if (scrollPos = 0) {
+                nav.classList.remove();
+                nav.classList.add('scrolledStand');
+            }
+            if (scrollPos = 0) {
+                nav.classList.remove();
+                nav.classList.add('scrolledStand');
+            }
             if (scrollPos < arrSmallScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
@@ -37,13 +45,16 @@ function addColorToNavBar() {
                 nav.classList.remove();
                 nav.classList.add('scrolledToContacts');
             }
-            else () => nav.classList.add('scrolledStand');
         });
     }
     if (windowWidth > 1151 && windowWidth <= 1440) {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
+            if (scrollPos = 0) {
+                nav.classList.remove();
+                nav.classList.add('scrolledStand');
+            }
             if (scrollPos < arrMiddleScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
@@ -72,13 +83,16 @@ function addColorToNavBar() {
                 nav.classList.remove();
                 nav.classList.add('scrolledToContacts');
             }
-            else () => nav.classList.add('scrolledStand');
         });
     }
     if (windowWidth > 1440 && windowWidth <= 1681) {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
+            if (scrollPos = 0) {
+                nav.classList.remove();
+                nav.classList.add('scrolledStand');
+            }
             if (scrollPos < arrMiddlePlusScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
@@ -107,13 +121,16 @@ function addColorToNavBar() {
                 nav.classList.remove();
                 nav.classList.add('scrolledToContacts');
             }
-            else () => nav.classList.add('scrolledStand');
         });
     }
     if (windowWidth > 1681) {
         window.addEventListener("scroll", function () {
             let scrollP = window.scrollY;
             let scrollPos = scrollP.toFixed(0);
+            if (scrollPos = 0) {
+                nav.classList.remove();
+                nav.classList.add('scrolledStand');
+            }
             if (scrollPos < arrHDScreen[1]) {
                 nav.classList.remove();
                 nav.classList.add('scrolledToHome');
@@ -142,7 +159,6 @@ function addColorToNavBar() {
                 nav.classList.remove();
                 nav.classList.add('scrolledToContacts');
             }
-            else () => nav.classList.add('scrolledStand');
         });
     }
 }
