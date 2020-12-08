@@ -2555,7 +2555,10 @@
     margin-right: 30px;
   }
   #subscribe input:nth-child(1):valid {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 225, 0, 0.5);
+  }
+  #subscribe input:nth-child(1):valid ~ input {
+    opacity: 1;
   }
   #subscribe input:nth-child(2) {
     height: 56px;
@@ -2566,8 +2569,8 @@
     color: whitesmoke;
     -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
             box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: .12s ease-in-out;
-    transition: .12s ease-in-out;
+    -webkit-transition: .15s ease-in-out,  opacity .55s ease-in-out;
+    transition: .15s ease-in-out,  opacity .55s ease-in-out;
     cursor: pointer;
   }
   #subscribe input:nth-child(2):active {
@@ -3326,8 +3329,8 @@
     color: whitesmoke;
     -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
             box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: .12s ease-in-out, opacity .55s ease-in-out;
-    transition: .12s ease-in-out, opacity .55s ease-in-out;
+    -webkit-transition: .15s ease-in-out,  opacity .55s ease-in-out;
+    transition: .15s ease-in-out,  opacity .55s ease-in-out;
     cursor: pointer;
     opacity: 0;
   }
@@ -4079,7 +4082,10 @@
     margin-right: 30px;
   }
   #subscribe input:nth-child(1):valid {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 225, 0, 0.5);
+  }
+  #subscribe input:nth-child(1):valid ~ input {
+    opacity: 1;
   }
   #subscribe input:nth-child(2) {
     height: 56px;
@@ -4090,8 +4096,8 @@
     color: whitesmoke;
     -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
             box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: .12s ease-in-out;
-    transition: .12s ease-in-out;
+    -webkit-transition: .15s ease-in-out,  opacity .55s ease-in-out;
+    transition: .15s ease-in-out,  opacity .55s ease-in-out;
     cursor: pointer;
   }
   #subscribe input:nth-child(2):active {
@@ -4848,7 +4854,10 @@
     margin-right: 30px;
   }
   #subscribe input:nth-child(1):valid {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 225, 0, 0.5);
+  }
+  #subscribe input:nth-child(1):valid ~ input {
+    opacity: 1;
   }
   #subscribe input:nth-child(2) {
     height: 105px;
@@ -4859,8 +4868,8 @@
     color: whitesmoke;
     -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
             box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
-    -webkit-transition: .12s ease-in-out;
-    transition: .12s ease-in-out;
+    -webkit-transition: .15s ease-in-out,  opacity .55s ease-in-out;
+    transition: .15s ease-in-out,  opacity .55s ease-in-out;
     cursor: pointer;
   }
   #subscribe input:nth-child(2):active {

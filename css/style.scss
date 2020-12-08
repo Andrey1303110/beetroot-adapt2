@@ -2278,7 +2278,10 @@
                 font-size: 17pt;
                 margin-right: 30px;
                 &:valid {
-                    background-color: rgba(0, 255, 0, 0.5);
+                    background-color: rgba(0, 225, 0, 0.5);
+                }
+                &:valid ~ input {
+                    opacity: 1;
                 }
             }
             input:nth-child(2) {
@@ -2289,7 +2292,8 @@
                 border: none;
                 color: whitesmoke;
                 box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
-                transition: .12s ease-in-out;
+                transition: .15s ease-in-out, 
+                opacity .55s ease-in-out;;
                 cursor: pointer;
                 &:active {
                     background-color: rgba(0, 225, 0, 0.7);
@@ -3569,7 +3573,10 @@ body {
             font-size: 17pt;
             margin-right: 30px;
             &:valid {
-                background-color: rgba(0, 255, 0, 0.5);
+                background-color: rgba(0, 225, 0, 0.5);
+            }
+            &:valid ~ input {
+                opacity: 1;
             }
         }
         input:nth-child(2) {
@@ -3580,7 +3587,8 @@ body {
             border: none;
             color: whitesmoke;
             box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
-            transition: .12s ease-in-out;
+            transition: .15s ease-in-out, 
+            opacity .55s ease-in-out;
             cursor: pointer;
             &:active {
                 background-color: rgba(0, 225, 0, 0.7);
@@ -4222,7 +4230,10 @@ body {
             font-size: 28pt;
             margin-right: 30px;
             &:valid {
-                background-color: rgba(0, 255, 0, 0.5);
+                background-color: rgba(0, 225, 0, 0.5);
+            }
+            &:valid ~ input {
+                opacity: 1;
             }
         }
         input:nth-child(2) {
@@ -4233,7 +4244,8 @@ body {
             border: none;
             color: whitesmoke;
             box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
-            transition: .12s ease-in-out;
+            transition: .15s ease-in-out, 
+            opacity .55s ease-in-out;
             cursor: pointer;
             &:active {
                 background-color: rgba(0, 225, 0, 0.7);
