@@ -155,3 +155,18 @@ function addColorToNavBar() {
 }
 
 addColorToNavBar();
+
+function getNightTheme() {
+    let date = new Date();
+    let sysHour = date.getHours()
+    let windowWidth = window.innerWidth;
+    if (windowWidth > 854) {
+        if (sysHour <= 21 || sysHour <= 6) {
+            let nav = document.querySelector("nav");
+            //    nav.classList.remove();
+            //    nav.classList.add('scrolledToHome');
+        }
+    }
+}
+
+getNightTheme();

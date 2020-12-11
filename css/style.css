@@ -2241,7 +2241,7 @@
     margin-top: -20px;
   }
   body nav p:nth-child(3) {
-    padding-left: 100px;
+    padding-left: 70px;
   }
   body nav p .logo img {
     height: 45px;
@@ -2347,6 +2347,10 @@
     min-height: 550px;
     padding-top: 20px;
     padding-bottom: 60px;
+  }
+  #services .blackSect3 {
+    background-image: url(../img/bg);
+    background-color: #70BFFF;
   }
   #services p {
     -webkit-margin-before: 0;
