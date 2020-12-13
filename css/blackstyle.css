@@ -3831,7 +3831,7 @@
     display: none;
   }
   body nav p:nth-child(2) {
-    padding: 0px 50px;
+    padding: 0px 10px;
   }
   body nav p:nth-child(3) {
     padding-left: 500px;
