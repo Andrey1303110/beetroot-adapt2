@@ -3220,9 +3220,12 @@ body {
             margin-block-end: 5px;
         }
         
-        footer img {
-            height: 20px;
-            margin: auto 5px;
+        footer div {
+            display: flex;
+        }
+        img {
+            height: 67px;
+            margin: auto 0px;
         }
         a {
             color: rgb(255, 67, 67);

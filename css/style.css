@@ -3647,9 +3647,14 @@
     -webkit-margin-after: 5px;
             margin-block-end: 5px;
   }
-  #contacts footer img {
-    height: 20px;
-    margin: auto 5px;
+  #contacts footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #contacts img {
+    height: 67px;
+    margin: auto 0px;
   }
   #contacts a {
     color: #ff4343;
