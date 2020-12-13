@@ -8,10 +8,6 @@ function getNightTheme() {
 
 getNightTheme();
 
-function getNightThemeClick() {
-    document.getElementById('css_path').setAttribute('href', './css/blackstyle.css');
-}
+function getNightThemeClick() { document.getElementById('css_path').setAttribute('href', './css/blackstyle.css'); }
 
-function getDayThemeClick() {
-    document.getElementById('css_path').setAttribute('href', './css/style.css');
-}
+function getDayThemeClick() { document.getElementById('css_path').setAttribute('href', './css/style.css'); }
