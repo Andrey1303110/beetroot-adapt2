@@ -2593,22 +2593,28 @@ body {
             background-color: rgba(255, 255, 255, 0.0); 
         }
         .scrolledToAbout{
-            background-color: rgba(58, 58, 240, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(58,58,240,0.7) 40%, rgba(58,58,240,0.7) 60%, rgba(13,17,23,0) 100%);
         }
         .scrolledToServices{
-            background-color: rgba(111, 34, 206, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(111,34,206,0.7) 40%, rgba(111,34,206,0.7) 60%, rgba(13,17,23,0) 100%);
         }
         .scrolledToGallery{
-            background-color: rgba(109, 218, 73, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(109,218,73,0.7) 40%, rgba(109,218,73,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToSubscribe{
-            background-color: rgba(30, 216, 216, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(30,216,216,0.7) 40%, rgba(30,216,216,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToBlog{
-            background-color: rgba(255, 62, 62, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(255,62,62,0.7) 40%, rgba(255,62,62,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToContacts{
-            background-color: rgba(56, 56, 56, 0.7);
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(179,10,172,0.7) 40%, rgba(179,10,172,0.7) 60%, rgba(13,17,23,0) 100%);
             .nav-text {
                     color: rgb(243, 243, 243);
                 }
@@ -2623,7 +2629,7 @@ body {
         nav {
             position: fixed;
             top: 0;
-            height: 70px;
+            height: 90px;
             display: flex;
             flex-direction: row;
             align-content: space-between;
@@ -2637,8 +2643,7 @@ body {
                 text-transform: uppercase;
                 font-weight: 600;
                 text-align: center;
-                height: 40%;
-                font-size: 14pt;
+                font-size: 16pt;
                 margin-left: 8px;
                 margin-right: 8px;
                 position: relative;
@@ -2660,7 +2665,6 @@ body {
                         bottom: 10px;
                         &:hover {
                             fill: orangered;
-                            box-shadow: -17px 17px 15px rgba(95, 95, 95, 0.6);
                         }
                     }
                 }
