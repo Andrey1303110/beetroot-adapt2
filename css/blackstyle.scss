@@ -1939,31 +1939,37 @@
 @media screen and (min-width:854px) and (max-width: 1151px) {
 
     body {
-            margin: 0 auto;
-            .scrolledToHome{
-                background-color: rgba(255, 255, 255, 0.0); 
-            }
-            .scrolledToAbout{
-                background-color: rgba(58, 58, 240, 0.7); 
-            }
-            .scrolledToServices{
-                background-color: rgba(111, 34, 206, 0.7); 
-            }
-            .scrolledToGallery{
-                background-color: rgba(109, 218, 73, 0.7); 
-            }
-            .scrolledToSubscribe{
-                background-color: rgba(30, 216, 216, 0.7); 
-            }
-            .scrolledToBlog{
-                background-color: rgba(255, 62, 62, 0.7); 
-            }
-            .scrolledToContacts{
-                background-color: rgba(56, 56, 56, 0.7);
-                .nav-text {
-                        color: rgb(243, 243, 243);
-                    }
-            }
+        margin: 0 auto;
+        .scrolledToHome{
+            background-color: rgba(255, 255, 255, 0.0); 
+        }
+        .scrolledToAbout{
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(58,58,240,0.7) 40%, rgba(58,58,240,0.7) 60%, rgba(13,17,23,0) 100%);
+        }
+        .scrolledToServices{
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(111,34,206,0.7) 40%, rgba(111,34,206,0.7) 60%, rgba(13,17,23,0) 100%);
+        }
+        .scrolledToGallery{
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(109,218,73,0.7) 40%, rgba(109,218,73,0.7) 60%, rgba(13,17,23,0) 100%); 
+        }
+        .scrolledToSubscribe{
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(30,216,216,0.7) 40%, rgba(30,216,216,0.7) 60%, rgba(13,17,23,0) 100%); 
+        }
+        .scrolledToBlog{
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(255,62,62,0.7) 40%, rgba(255,62,62,0.7) 60%, rgba(13,17,23,0) 100%); 
+        }
+        .scrolledToContacts{
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(179,10,172,0.7) 40%, rgba(179,10,172,0.7) 60%, rgba(13,17,23,0) 100%);
+            .nav-text {
+                    color: rgb(243, 243, 243);
+                }
+        }
             .scrolledStand{
                 background-color: rgba(230, 230, 230, 0.7); 
             }
@@ -3265,22 +3271,28 @@ body {
             background-color: rgba(255, 255, 255, 0.0); 
         }
         .scrolledToAbout{
-            background-color: rgba(58, 58, 240, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(58,58,240,0.7) 40%, rgba(58,58,240,0.7) 60%, rgba(13,17,23,0) 100%);
         }
         .scrolledToServices{
-            background-color: rgba(111, 34, 206, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(111,34,206,0.7) 40%, rgba(111,34,206,0.7) 60%, rgba(13,17,23,0) 100%);
         }
         .scrolledToGallery{
-            background-color: rgba(109, 218, 73, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(109,218,73,0.7) 40%, rgba(109,218,73,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToSubscribe{
-            background-color: rgba(30, 216, 216, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(30,216,216,0.7) 40%, rgba(30,216,216,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToBlog{
-            background-color: rgba(255, 62, 62, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(255,62,62,0.7) 40%, rgba(255,62,62,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToContacts{
-            background-color: rgba(56, 56, 56, 0.7);
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(179,10,172,0.7) 40%, rgba(179,10,172,0.7) 60%, rgba(13,17,23,0) 100%);
             .nav-text {
                     color: rgb(243, 243, 243);
                 }
@@ -3291,7 +3303,7 @@ body {
         nav {
             position: fixed;
             top: 0;
-            height: 70px;
+            height: 110px;
             display: flex;
             flex-direction: row;
             align-content: space-between;
@@ -3305,8 +3317,7 @@ body {
                 text-transform: uppercase;
                 font-weight: 600;
                 text-align: center;
-                height: 40%;
-                font-size: 14pt;
+                font-size: 18pt;
                 margin-left: 8px;
                 margin-right: 8px;
                 position: relative;
@@ -3336,7 +3347,7 @@ body {
                 }
                 .nav-text {
                     text-decoration: none;
-                    color: black;
+                    color: rgb(243, 243, 243);
                     transition: all .1s ease-in-out;
                     padding-top: 10px;
                     &:hover {
@@ -3348,10 +3359,11 @@ body {
     }
 
     #home {
-        background-image: url(../img/bgimg1.png);
-        background-color: #F9F8FB;
-        background-repeat: cover;
-        background-position: center;
+        background-image: url(../img/black/sect1.png);
+        background-color: #0D1117;
+        background-repeat: space;
+        background-position: 100% 62%;
+        color: rgb(243, 243, 243);  
         height: 950px;
         width: 100%;
         position: relative;
@@ -3392,10 +3404,11 @@ body {
     }
 
     #about_us {
-        background-image: url(../img/bgimg2.png);
-        background-color: #00B2B2;
-        background-repeat: cover;
-        background-position: center;
+        background-image: url(../img/black/sect2.png);
+        background-color: #0D1117;
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: 0% center;
         height: 700px;
         min-height: 500px;
         margin-top: -18px;
@@ -3420,10 +3433,11 @@ body {
     }
 
     #services {
-        background-image: url(../img/bgimg3.png); 
-        background-color: #70BFFF;
-        background-repeat: cover;
-        background-position: center;
+        background-image: url(../img/img3-rs.png); 
+        background-color: #0D1117;
+        background-repeat: no-repeat;
+        background-position: 85% 50%;
+        background-size: 32%;
         height: 650px;
         min-height: 550px;
         padding: 50px 0px;
@@ -3458,12 +3472,13 @@ body {
             font-size: 20pt;
             }
             &:hover {
-                background-color: rgba(0, 240, 0, 0.3);
+                background-color: rgba(0, 240, 0, 0.45);
                 color: white;
             }
             &:active {
-                background-color:  rgba(3, 221, 3, 0.671);
+                background-color:  rgba(3, 221, 3, 0.7);
                 transition: all .15s;
+                transform: translateY(20px);
             }
             img {
                 height: 70px;
@@ -3475,12 +3490,13 @@ body {
     }
 
     #gallery {
-        background-color: #ffe92f;
+        background-color: #0D1117;
         background-repeat: round;
         height: 1320px;
         min-height: 900px;
         margin-top: -20px;
         padding-top: 50px;
+        color: rgb(243, 243, 243); 
         p {
             margin-block-start: 0;
             margin-block-end: 0;
@@ -3508,12 +3524,12 @@ body {
             padding-bottom: 10px;
             div {
                 background-repeat: round;
-                filter: grayscale(.8);
+                filter: brightness(.4);
                 border-radius: 3%;
                 transition: all .3s ease-in-out;
                 cursor: pointer;
                 &:hover {
-                    filter: grayscale(0);
+                    filter: brightness(1);
                 }
             }
             #container1 {
@@ -3558,7 +3574,7 @@ body {
             height: 6%;
                 button {
                 background-color: #5585a2;
-                color: white;
+                color: rgb(243, 243, 243);
                 width: 100%;
                 height: 100%;
                 font-size: 27pt;
@@ -3573,12 +3589,15 @@ body {
     }
 
     #subscribe {
-        background-image: url(../img/bgimg5.png);
-        background-repeat: round;
-        background-position: center;
+        background-image: url(../img/black/sect5.png);
+        background-color: #0D1117;
+        background-repeat: no-repeat;
+        background-size: 18%;
+        background-position: 82% 50%;
         height: 480px;
         min-height: 350px;
         padding-left: 13%;
+        color: rgb(243, 243, 243);
         p {
             margin-block-start: 0;
             margin-block-end: 0;
@@ -3597,6 +3616,7 @@ body {
             width: 33%;
             font-size: 17pt;
             margin-right: 30px;
+            padding-left: 10px;
             &:valid {
                 background-color: rgba(0, 225, 0, 0.5);
             }
@@ -3624,7 +3644,8 @@ body {
     }
 
     #blog {
-        background-image: url(../img/bgimg6.png);
+        background: rgb(13,17,23);
+        background: linear-gradient(180deg, rgba(13,17,23,1) 0%, rgba(0,0,0,1) 100%);   
         background-repeat: round;
         background-position: center;
         background-size: 100%;
@@ -3674,13 +3695,13 @@ body {
             flex-direction: row;
             justify-content: space-evenly;
             div:nth-child(1) {
-                box-shadow: -20px 20px 7px rgba(0,0,0,0.6);
+                box-shadow: -17px 17px 15px rgba(95, 95, 95, 0.6);
             }
             div:nth-child(2) {
-                box-shadow: 0px 20px 7px rgba(0,0,0,0.6);
+                box-shadow: 0px 17px 15px rgba(95, 95, 95, 0.6);
             }
             div:nth-child(3) {
-                box-shadow: 20px 20px 7px rgba(0,0,0,0.6);
+                box-shadow: 17px 17px 15px rgba(95, 95, 95, 0.6);
             }
             div {
                 background-repeat: no-repeat;
@@ -3731,11 +3752,13 @@ body {
     }
 
     #contacts {
-        background-image: url(../img/bg.png);
+        background-image: url(../img/black/sect7-1.png);
+        background-color: #0D1117;
         background-size: cover;
         background-position: center;
         font-family: 'Raleway', sans-serif;
         margin: 0px;
+        color: rgb(243, 243, 243);
         .main_block {
             padding: 60px 180px;
             .main {
@@ -3768,18 +3791,18 @@ body {
                 border-style: inset;
                 }           
                 .input_left:focus {
-                    background-color: #00b9b9be;
+                    background-color: #00b9b9ce;
                     border-left: 3px solid blue;
                     width: 85%;
                 
                 }            
                 .text_input_left:focus {
-                    background-color: #00b9b9be;
+                    background-color: #00b9b9ce;
                     border-left: 3px solid blue;
                     width: 85%;
                 }
                 .text_input_left {
-                    background-color: #00d3d33d;
+                    background-color: #00b1b18e;
                     width: 100%;
                     padding-left: 8px;
                     transition: all .35s;
@@ -3796,7 +3819,7 @@ body {
                     font-size: 14px;
                 }
                 .input_left {
-                    background-color: #00d3d33d;
+                    background-color: #00b1b18e;
                     height: 15%;
                     width: 100%;
                     padding-left: 8px;
@@ -3914,22 +3937,28 @@ body {
             background-color: rgba(255, 255, 255, 0.0); 
         }
         .scrolledToAbout{
-            background-color: rgba(58, 58, 240, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(58,58,240,0.7) 40%, rgba(58,58,240,0.7) 60%, rgba(13,17,23,0) 100%);
         }
         .scrolledToServices{
-            background-color: rgba(111, 34, 206, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(111,34,206,0.7) 40%, rgba(111,34,206,0.7) 60%, rgba(13,17,23,0) 100%);
         }
         .scrolledToGallery{
-            background-color: rgba(109, 218, 73, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(109,218,73,0.7) 40%, rgba(109,218,73,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToSubscribe{
-            background-color: rgba(30, 216, 216, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(30,216,216,0.7) 40%, rgba(30,216,216,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToBlog{
-            background-color: rgba(255, 62, 62, 0.7); 
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(255,62,62,0.7) 40%, rgba(255,62,62,0.7) 60%, rgba(13,17,23,0) 100%); 
         }
         .scrolledToContacts{
-            background-color: rgba(56, 56, 56, 0.7);
+            background: rgb(13,17,23);
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(179,10,172,0.7) 40%, rgba(179,10,172,0.7) 60%, rgba(13,17,23,0) 100%);
             .nav-text {
                     color: rgb(243, 243, 243);
                 }
@@ -3940,7 +3969,7 @@ body {
         nav {
             position: fixed;
             top: 0;
-            height: 100px;
+            height: 130px;
             display: flex;
             flex-direction: row;
             align-content: space-between;
