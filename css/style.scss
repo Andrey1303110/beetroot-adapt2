@@ -2542,9 +2542,15 @@
                 margin-block-end: 5px;
             }
             
+            footer div {
+                display: flex;
+            }
+
             footer img {
-                height: 20px;
-                margin: auto 5px;
+                position: relative;
+                bottom: -1px;
+                height: 70px;
+                margin: auto 0px;
             }
             a {
                 color: rgb(255, 67, 67);
@@ -3193,7 +3199,9 @@ body {
         }
 
         img {
-            height: 67px;
+            position: relative;
+            bottom: -1px;
+            height: 70px;
             margin: auto 0px;
         }
         a {
@@ -3841,9 +3849,12 @@ body {
             margin-block-end: 5px;
         }
         
-        footer img {
-            height: 20px;
-            margin: auto 5px;
+        footer div {
+            display: flex;
+        }
+        img {
+            height: 67px;
+            margin: auto 0px;
         }
         a {
             color: rgb(255, 67, 67);
@@ -4503,9 +4514,14 @@ body {
             font-size: 16pt;
         }
         
-        footer img {
-            height: 35px;
-            align-items: center;
+        footer div {
+            display: flex;
+        }
+        img {
+            position: relative;
+            bottom: -1px;
+            height: 70px;
+            margin: auto 0px;
         }
         a {
             color: rgb(255, 67, 67);

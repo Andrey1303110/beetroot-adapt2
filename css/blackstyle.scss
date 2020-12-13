@@ -3889,9 +3889,15 @@ body {
             margin-block-end: 5px;
         }
         
+        footer div {
+            display: flex;
+        }
+
         footer img {
-            height: 20px;
-            margin: auto 5px;
+            position: relative;
+            bottom: -1px;
+            height: 70px;
+            margin: auto 0px;
         }
         a {
             color: rgb(255, 67, 67);
@@ -4557,9 +4563,15 @@ body {
             font-size: 16pt;
         }
         
+        footer div {
+            display: flex;
+        }
+
         footer img {
-            height: 35px;
-            align-items: center;
+            position: relative;
+            bottom: -1px;
+            height: 70px;
+            margin: auto 0px;
         }
         a {
             color: rgb(255, 67, 67);
