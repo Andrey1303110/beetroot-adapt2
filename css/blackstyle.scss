@@ -3224,8 +3224,13 @@ body {
             display: flex;
         }
         img {
-            height: 67px;
+                         height: 70px;
             margin: auto 0px;
+            transition: all .35s ease-in-out;
+            filter: brightness(.85);
+            &:hover {
+                filter: brightness(1.25);
+            }
         }
         a {
             color: rgb(255, 67, 67);
@@ -3895,9 +3900,13 @@ body {
 
         footer img {
             position: relative;
-            bottom: -1px;
-            height: 70px;
+                                      height: 70px;
             margin: auto 0px;
+            transition: all .35s ease-in-out;
+            filter: brightness(.85);
+            &:hover {
+                filter: brightness(1.25);
+            }
         }
         a {
             color: rgb(255, 67, 67);
@@ -4569,9 +4578,13 @@ body {
 
         footer img {
             position: relative;
-            bottom: -1px;
-            height: 70px;
+                                      height: 70px;
             margin: auto 0px;
+            transition: all .35s ease-in-out;
+            filter: brightness(.85);
+            &:hover {
+                filter: brightness(1.25);
+            }
         }
         a {
             color: rgb(255, 67, 67);

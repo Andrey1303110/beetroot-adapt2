@@ -2547,9 +2547,7 @@
             }
 
             footer img {
-                position: relative;
-                bottom: -1px;
-                height: 70px;
+                height: 60px;
                 margin: auto 0px;
             }
             a {
@@ -3199,10 +3197,18 @@ body {
         }
 
         img {
-            position: relative;
-            bottom: -1px;
             height: 70px;
             margin: auto 0px;
+            transition: all .35s ease-in-out;
+            filter: brightness(.85);
+            &:hover {
+                filter: brightness(1.25);
+            }
+            transition: all .35s ease-in-out;
+            filter: brightness(.85);
+            &:hover {
+                filter: brightness(1.25);
+            }
         }
         a {
             color: rgb(255, 67, 67);
@@ -4518,10 +4524,14 @@ body {
             display: flex;
         }
         img {
-            position: relative;
-            bottom: -1px;
-            height: 70px;
+ 
+                         height: 70px;
             margin: auto 0px;
+            transition: all .35s ease-in-out;
+            filter: brightness(.85);
+            &:hover {
+                filter: brightness(1.25);
+            }
         }
         a {
             color: rgb(255, 67, 67);

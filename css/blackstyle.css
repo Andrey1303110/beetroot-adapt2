@@ -3710,7 +3710,7 @@
     display: flex;
   }
   #contacts img {
-    height: 67px;
+    height: 70px;
     margin: auto 0px;
   }
   #contacts a {
@@ -4507,7 +4507,6 @@
   }
   #contacts footer img {
     position: relative;
-    bottom: -1px;
     height: 70px;
     margin: auto 0px;
   }
@@ -5303,7 +5302,6 @@
   }
   #contacts footer img {
     position: relative;
-    bottom: -1px;
     height: 70px;
     margin: auto 0px;
   }
