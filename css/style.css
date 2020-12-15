@@ -2880,10 +2880,10 @@
   }
   #contacts footer p {
     height: 20px;
-    -webkit-margin-before: 5px;
-            margin-block-start: 5px;
-    -webkit-margin-after: 5px;
-            margin-block-end: 5px;
+    -webkit-margin-before: 0px;
+            margin-block-start: 0px;
+    -webkit-margin-after: 0px;
+            margin-block-end: 0px;
   }
   #contacts footer div {
     display: -webkit-box;
@@ -2891,8 +2891,16 @@
     display: flex;
   }
   #contacts footer img {
-    height: 60px;
+    height: 70px;
     margin: auto 0px;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -webkit-filter: brightness(0.85);
+            filter: brightness(0.85);
+  }
+  #contacts footer img:hover {
+    -webkit-filter: brightness(1.25);
+            filter: brightness(1.25);
   }
   #contacts a {
     color: #ff4343;
