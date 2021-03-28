@@ -1381,6 +1381,9 @@
     vertical-align: middle;
     position: relative;
   }
+  #contacts #theme_choose {
+    display: none;
+  }
   #contacts footer p {
     font-size: 52%;
     height: 100%;
@@ -2110,8 +2113,11 @@
             align-items: center;
     padding: 0px 20px;
     vertical-align: middle;
-    height: 70px;
+    height: 80px;
     position: relative;
+  }
+  #contacts #theme_choose {
+    display: none;
   }
   #contacts footer p {
     font-size: 14pt;

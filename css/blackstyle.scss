@@ -1262,6 +1262,10 @@
                 vertical-align: middle;
                 position: relative;
             }
+
+            #theme_choose {
+                display: none;
+            }
             
             footer p {
                 font-size: 52%;
@@ -1882,8 +1886,11 @@
                 align-items: center;
                 padding: 0px 20px;
                 vertical-align: middle;
-                height: 70px;
+                height: 80px;
                 position: relative;
+            }
+            #theme_choose {
+                display: none;
             }
             
             footer p {
