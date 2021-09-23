@@ -2958,6 +2958,7 @@
     top: -50px;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
+    cursor: pointer;
   }
   #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
     font-size: 2rem;
@@ -3888,6 +3889,7 @@
     top: -50px;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
+    cursor: pointer;
   }
   #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
     font-size: 2rem;
@@ -4802,6 +4804,7 @@
     top: -50px;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
+    cursor: pointer;
   }
   #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
     font-size: 2rem;
@@ -5716,6 +5719,7 @@
     top: -50px;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
+    cursor: pointer;
   }
   #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
     font-size: 2rem;
