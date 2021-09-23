@@ -155,3 +155,13 @@ function addColorToNavBar() {
 }
 
 addColorToNavBar();
+
+let el = $('#themeSwitch');
+
+$(el).change(function(){
+    if (this.checked) {
+        document.getElementById('css_path').setAttribute('href', './css/blackstyle.css');
+    } else {
+        document.getElementById('css_path').setAttribute('href', './css/style.css');
+    }
+})

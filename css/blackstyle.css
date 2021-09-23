@@ -2,9 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
 * {
   margin: 0;
   padding: 0;
@@ -568,7 +572,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            padding: 0px 50px;
+             padding: 26px 50px;
             vertical-align: middle;height: 70px;
             position: relative;
             bottom: -70px;
@@ -2894,10 +2898,120 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0px 50px;
+    padding: 26px 50px;
     vertical-align: middle;
     position: relative;
     bottom: -70px;
+  }
+  #contacts #theme_choose {
+  }
+  #contacts #theme_choose * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #contacts #theme_choose body {
+    font-family: Merriweather, serif;
+  }
+  #contacts #theme_choose label {
+    background: var(--bg, white);
+    color: var(--text, black);
+  }
+  #contacts #theme_choose .wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main,
+  #contacts #theme_choose .theme-switch__input:checked ~ label {
+    --text: white;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main {
+    --gradDark: hsl(198, 44%, 11%);
+    --gradLight: hsl(198, 39%, 29%);
+  }
+  #contacts #theme_choose .theme-switch__input,
+  #contacts #theme_choose .theme-switch__label {
+    position: absolute;
+    z-index: 1;
+  }
+  #contacts #theme_choose .theme-switch__input {
+    opacity: 0;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label span::after, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label span::after {
+    background-color: #d4ebf2;
+  }
+  #contacts #theme_choose .theme-switch__label {
+    padding: 20px;
+    margin: 60px;
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: slateGray;
+    -webkit-box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+            box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: -50px;
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
+    font-size: 2rem;
+    position: absolute;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+    top: 50%;
+  }
+  #contacts #theme_choose .theme-switch__label::before {
+    content: '\263C';
+    right: 100%;
+    margin-right: 10px;
+    color: orange;
+  }
+  #contacts #theme_choose .theme-switch__label::after {
+    content: '\263E';
+    left: 100%;
+    margin-left: 10px;
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__label span {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+  }
+  #contacts #theme_choose .theme-switch__label span::after {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    content: '';
+    border-radius: 50%;
+    background-color: lightBlue;
+    -webkit-transition: background-color 200ms, -webkit-transform 200ms;
+    transition: background-color 200ms, -webkit-transform 200ms;
+    transition: transform 200ms, background-color 200ms;
+    transition: transform 200ms, background-color 200ms, -webkit-transform 200ms;
+    -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+            box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::before {
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::after {
+    color: turquoise;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label span::after {
+    -webkit-transform: translate3d(70px, 0, 0);
+            transform: translate3d(70px, 0, 0);
   }
   #contacts footer p {
     height: 20px;
@@ -3713,11 +3827,121 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0px 50px;
+    padding: 26px 50px;
     vertical-align: middle;
     height: 70px;
     position: relative;
     bottom: -70px;
+  }
+  #contacts #theme_choose {
+  }
+  #contacts #theme_choose * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #contacts #theme_choose body {
+    font-family: Merriweather, serif;
+  }
+  #contacts #theme_choose label {
+    background: var(--bg, white);
+    color: var(--text, black);
+  }
+  #contacts #theme_choose .wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main,
+  #contacts #theme_choose .theme-switch__input:checked ~ label {
+    --text: white;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main {
+    --gradDark: hsl(198, 44%, 11%);
+    --gradLight: hsl(198, 39%, 29%);
+  }
+  #contacts #theme_choose .theme-switch__input,
+  #contacts #theme_choose .theme-switch__label {
+    position: absolute;
+    z-index: 1;
+  }
+  #contacts #theme_choose .theme-switch__input {
+    opacity: 0;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label span::after, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label span::after {
+    background-color: #d4ebf2;
+  }
+  #contacts #theme_choose .theme-switch__label {
+    padding: 20px;
+    margin: 60px;
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: slateGray;
+    -webkit-box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+            box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: -50px;
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
+    font-size: 2rem;
+    position: absolute;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+    top: 50%;
+  }
+  #contacts #theme_choose .theme-switch__label::before {
+    content: '\263C';
+    right: 100%;
+    margin-right: 10px;
+    color: orange;
+  }
+  #contacts #theme_choose .theme-switch__label::after {
+    content: '\263E';
+    left: 100%;
+    margin-left: 10px;
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__label span {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+  }
+  #contacts #theme_choose .theme-switch__label span::after {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    content: '';
+    border-radius: 50%;
+    background-color: lightBlue;
+    -webkit-transition: background-color 200ms, -webkit-transform 200ms;
+    transition: background-color 200ms, -webkit-transform 200ms;
+    transition: transform 200ms, background-color 200ms;
+    transition: transform 200ms, background-color 200ms, -webkit-transform 200ms;
+    -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+            box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::before {
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::after {
+    color: turquoise;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label span::after {
+    -webkit-transform: translate3d(70px, 0, 0);
+            transform: translate3d(70px, 0, 0);
   }
   #contacts footer p {
     height: 20px;
@@ -4517,11 +4741,121 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0px 50px;
+    padding: 26px 50px;
     vertical-align: middle;
     height: 70px;
     position: relative;
     bottom: -70px;
+  }
+  #contacts #theme_choose {
+  }
+  #contacts #theme_choose * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #contacts #theme_choose body {
+    font-family: Merriweather, serif;
+  }
+  #contacts #theme_choose label {
+    background: var(--bg, white);
+    color: var(--text, black);
+  }
+  #contacts #theme_choose .wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main,
+  #contacts #theme_choose .theme-switch__input:checked ~ label {
+    --text: white;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main {
+    --gradDark: hsl(198, 44%, 11%);
+    --gradLight: hsl(198, 39%, 29%);
+  }
+  #contacts #theme_choose .theme-switch__input,
+  #contacts #theme_choose .theme-switch__label {
+    position: absolute;
+    z-index: 1;
+  }
+  #contacts #theme_choose .theme-switch__input {
+    opacity: 0;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label span::after, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label span::after {
+    background-color: #d4ebf2;
+  }
+  #contacts #theme_choose .theme-switch__label {
+    padding: 20px;
+    margin: 60px;
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: slateGray;
+    -webkit-box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+            box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: -50px;
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
+    font-size: 2rem;
+    position: absolute;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+    top: 50%;
+  }
+  #contacts #theme_choose .theme-switch__label::before {
+    content: '\263C';
+    right: 100%;
+    margin-right: 10px;
+    color: orange;
+  }
+  #contacts #theme_choose .theme-switch__label::after {
+    content: '\263E';
+    left: 100%;
+    margin-left: 10px;
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__label span {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+  }
+  #contacts #theme_choose .theme-switch__label span::after {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    content: '';
+    border-radius: 50%;
+    background-color: lightBlue;
+    -webkit-transition: background-color 200ms, -webkit-transform 200ms;
+    transition: background-color 200ms, -webkit-transform 200ms;
+    transition: transform 200ms, background-color 200ms;
+    transition: transform 200ms, background-color 200ms, -webkit-transform 200ms;
+    -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+            box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::before {
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::after {
+    color: turquoise;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label span::after {
+    -webkit-transform: translate3d(70px, 0, 0);
+            transform: translate3d(70px, 0, 0);
   }
   #contacts footer p {
     height: 20px;
@@ -5321,11 +5655,121 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0px 50px;
+    padding: 26px 50px;
     vertical-align: middle;
     height: 70px;
     position: relative;
     bottom: -70px;
+  }
+  #contacts #theme_choose {
+  }
+  #contacts #theme_choose * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #contacts #theme_choose body {
+    font-family: Merriweather, serif;
+  }
+  #contacts #theme_choose label {
+    background: var(--bg, white);
+    color: var(--text, black);
+  }
+  #contacts #theme_choose .wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main,
+  #contacts #theme_choose .theme-switch__input:checked ~ label {
+    --text: white;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ main {
+    --gradDark: hsl(198, 44%, 11%);
+    --gradLight: hsl(198, 39%, 29%);
+  }
+  #contacts #theme_choose .theme-switch__input,
+  #contacts #theme_choose .theme-switch__label {
+    position: absolute;
+    z-index: 1;
+  }
+  #contacts #theme_choose .theme-switch__input {
+    opacity: 0;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:hover + .theme-switch__label span::after, #contacts #theme_choose .theme-switch__input:focus + .theme-switch__label span::after {
+    background-color: #d4ebf2;
+  }
+  #contacts #theme_choose .theme-switch__label {
+    padding: 20px;
+    margin: 60px;
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: slateGray;
+    -webkit-box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+            box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: -50px;
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+  #contacts #theme_choose .theme-switch__label::before, #contacts #theme_choose .theme-switch__label::after {
+    font-size: 2rem;
+    position: absolute;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+    top: 50%;
+  }
+  #contacts #theme_choose .theme-switch__label::before {
+    content: '\263C';
+    right: 100%;
+    margin-right: 10px;
+    color: orange;
+  }
+  #contacts #theme_choose .theme-switch__label::after {
+    content: '\263E';
+    left: 100%;
+    margin-left: 10px;
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__label span {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+  }
+  #contacts #theme_choose .theme-switch__label span::after {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    content: '';
+    border-radius: 50%;
+    background-color: lightBlue;
+    -webkit-transition: background-color 200ms, -webkit-transform 200ms;
+    transition: background-color 200ms, -webkit-transform 200ms;
+    transition: transform 200ms, background-color 200ms;
+    transition: transform 200ms, background-color 200ms, -webkit-transform 200ms;
+    -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+            box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label {
+    background-color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::before {
+    color: lightSlateGray;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label::after {
+    color: turquoise;
+  }
+  #contacts #theme_choose .theme-switch__input:checked ~ .theme-switch__label span::after {
+    -webkit-transform: translate3d(70px, 0, 0);
+            transform: translate3d(70px, 0, 0);
   }
   #contacts footer p {
     height: 20px;
@@ -5394,4 +5838,3 @@
     color: white;
   }
 }
-/*# sourceMappingURL=blackstyle.css.map */

@@ -8,6 +8,7 @@
     <script src="./js/ScriptForChangeCss.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="icon" href="./favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <title>Мій сайт</title>
 </head>
 
@@ -163,12 +164,14 @@
             </div>
 
             <footer>
-                <p>© 2015 Company. All right reserved.</p>
+                <p>Copyright © 2021. All right reserved.</p>
                 <div id="theme_choose">
-                    <img svg src="./img/black/night.png" onclick="getNightThemeClick()" style="cursor: pointer;">
-                    <img svg src="./img/black/day.png" onclick="getDayThemeClick()" style="cursor: pointer;">
+                    <input type="checkbox" id="themeSwitch" name="theme-switch" class="theme-switch__input" />
+                    <label for="themeSwitch" class="theme-switch__label">
+                        <span></span>
+                    </label>
                 </div>
-                <p>Made with <a>love</a> by Auskteez</p>
+                <p>Made with <a>love</a> by Andrey</p>
             </footer>
         </section>
 
