@@ -160,8 +160,8 @@ let el = $('#themeSwitch');
 
 $(el).change(function(){
     if (this.checked) {
-        document.getElementById('css_path').setAttribute('href', './css/blackstyle.css');
+        document.getElementById('css_path').setAttribute('href', './css/blackstyle.min.css');
     } else {
-        document.getElementById('css_path').setAttribute('href', './css/style.css');
+        document.getElementById('css_path').setAttribute('href', './css/style.min.css');
     }
 })
