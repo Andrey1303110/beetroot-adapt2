@@ -682,7 +682,7 @@
                     }
                     a {
                         img {
-                            height: 50px;
+                            height: 40px;
                         }
                     }
                     .nav-text {
@@ -1314,6 +1314,7 @@
                         }
                     }
                     .logo {
+                        overflow: hidden;
                         img {
                             height: 0px;
                         }
@@ -2793,7 +2794,7 @@ body {
                     padding: 0px 40px;
                 }
                 &:nth-child(3) {
-                    padding-left: 370px;
+                    padding-left: 250px;
                 }
                 .logo {
                     img {
@@ -5103,4 +5104,8 @@ body {
             }
         }
     }
+}
+
+nav p {
+    text-transform: uppercase;
 }

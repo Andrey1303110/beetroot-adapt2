@@ -703,7 +703,7 @@
     position: relative;
   }
   nav p a img {
-    height: 50px;
+    height: 40px;
   }
   nav p .nav-text {
     text-decoration: none;
@@ -1452,6 +1452,9 @@
   }
   body nav p a img {
     height: 90px;
+  }
+  body nav p .logo {
+    overflow: hidden;
   }
   body nav p .logo img {
     height: 0px;
@@ -3138,7 +3141,7 @@
     padding: 0px 40px;
   }
   body nav p:nth-child(3) {
-    padding-left: 370px;
+    padding-left: 250px;
   }
   body nav p .logo img {
     height: 45px;
@@ -5738,4 +5741,8 @@
     background-color: #00d3d35b;
     color: white;
   }
+}
+
+nav p {
+  text-transform: uppercase;
 }
